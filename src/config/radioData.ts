@@ -1,15 +1,13 @@
 export const radioData = {
   name: "Rádio Sinta",
   domain: "radiosinta.com.br",
-  iframeUrl:
-    "https://livemus.com.br/player_barra_moderno/index.php?porta=28118",
+  iframeUrl: "https://livemus.com.br/player_barra_moderno/index.php?porta=28118",
   phoneRaw: "31988487320",
   phoneFormatted: "(31) 98848-7320",
   whatsappLink: "https://wa.me/5531988487320",
   instagramLink: "https://www.instagram.com/radiosinta",
-  slogan:
-    "Aqui você sente a presença de Deus — Tocando sempre o que acalma seu coração",
-  pixKey: "(31) 98848-7320",
+  slogan: "Sinta a presença de Deus",
+  pixKey: "apoie@radiosinta.com.br",
   pixHolder: "Rádio Sinta Digital / Banco Vinculado",
   nowPlaying: "Você está ouvindo: Conexão Viva — Rádio Sinta",
   credits: {
