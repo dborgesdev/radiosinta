@@ -85,7 +85,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { name: "author", content: "Rádio Sinta" },
       { name: "theme-color", content: "#060913" },
-      { property: "og:title", content: "Rádio Sinta — Rádio Gospel Online 24h" },
+      { property: "og:title", content: "Rádio Sinta — Rádio Gospel Online 24h | Louvor e Paz" },
       {
         property: "og:description",
         content:
@@ -94,6 +94,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { property: "og:locale", content: "pt_BR" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Rádio Sinta — Rádio Gospel Online 24h | Louvor e Paz" },
+      { name: "description", content: "Rádio Sinta Stream is a Brazilian online Gospel audio streaming platform." },
+      { property: "og:description", content: "Rádio Sinta Stream is a Brazilian online Gospel audio streaming platform." },
+      { name: "twitter:description", content: "Rádio Sinta Stream is a Brazilian online Gospel audio streaming platform." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b84244c4-46fc-4f68-8550-835bae229d7b/id-preview-6ce6a854--2872d874-7577-4138-811b-8d99c78e4696.lovable.app-1782930296454.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b84244c4-46fc-4f68-8550-835bae229d7b/id-preview-6ce6a854--2872d874-7577-4138-811b-8d99c78e4696.lovable.app-1782930296454.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
