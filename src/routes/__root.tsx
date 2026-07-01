@@ -77,21 +77,37 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Rádio Sinta — Rádio Gospel Online 24h | Louvor e Paz" },
+      {
+        name: "description",
+        content:
+          "Rádio Sinta: rádio gospel online 24h que toca o que acalma o seu coração. Louvores selecionados e mensagens de paz para você sentir a presença de Deus.",
+      },
+      { name: "author", content: "Rádio Sinta" },
+      { name: "theme-color", content: "#060913" },
+      { property: "og:title", content: "Rádio Sinta — Rádio Gospel Online 24h" },
+      {
+        property: "og:description",
+        content:
+          "Aqui você sente a presença de Deus. Ouça ao vivo, onde estiver.",
+      },
       { property: "og:type", content: "website" },
+      { property: "og:locale", content: "pt_BR" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
+      { rel: "stylesheet", href: appCss },
+      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      {
+        rel: "preconnect",
+        href: "https://fonts.gstatic.com",
+        crossOrigin: "anonymous",
+      },
       {
         rel: "stylesheet",
-        href: appCss,
+        href: "https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap",
       },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
     ],
   }),
   shellComponent: RootShell,

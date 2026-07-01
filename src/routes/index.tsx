@@ -1,24 +1,32 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Header } from "@/components/Header";
+import { Hero } from "@/components/Hero";
+import { Essence } from "@/components/Essence";
+import { Artistas } from "@/components/Artistas";
+import { Sintonize } from "@/components/Sintonize";
+import { Cvv } from "@/components/Cvv";
+import { Semeadores } from "@/components/Semeadores";
+import { StickyPlayer } from "@/components/StickyPlayer";
+import { Footer } from "@/components/Footer";
 
-// No head() here: the home route inherits title/description/og/twitter from
-// __root.tsx, and ships no og:image so serve-time hosting can inject the
-// project's social preview (explicit og:image or latest screenshot).
 export const Route = createFileRoute("/")({
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
+    <div className="grain-overlay relative min-h-screen bg-[#060913] text-white">
+      <Header />
+      <main>
+        <Hero />
+        <Essence />
+        <Artistas />
+        <Sintonize />
+        <Cvv />
+        <Semeadores />
+      </main>
+      <Footer />
+      <StickyPlayer />
     </div>
   );
 }
