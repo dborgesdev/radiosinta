@@ -30,7 +30,7 @@ export function Hero() {
     },
     {
       tag: "h2",
-      title: "A Rádio Online que Toca o seu Coração e Alimenta a sua Fé",
+      title: "A Rádio que Toca o seu Coração e Alimenta a sua Fé",
       subtitle:
         "Pare por um instante. Respire profundamente. Em meio ao barulho do mundo cotidiano, encontre a frequência perfeita para acalmar a sua alma, restaurar as suas forças e se conectar com o alto.",
       ctaLabel: "Ouça Agora",
