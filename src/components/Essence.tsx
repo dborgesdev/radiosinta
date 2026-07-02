@@ -17,14 +17,13 @@ export function Essence() {
             <Sparkles className="h-3.5 w-3.5" /> A nossa essência
           </div>
           <h2 className="font-display text-4xl font-bold leading-tight sm:text-5xl">
-            Uma Atmosfera de <span className="text-gradient-brand">Louvor e Palavra</span>: Sem
-            Interrupções
+            Uma Atmosfera de <span className="text-gradient-brand">Louvor e Palavra</span> para Você
+            Sentir a Presença de Deus
           </h2>
           <p className="mt-6 text-white/70">
-            Esqueça o barulho, os comerciais excessivos e as conversas paralelas. A Rádio Sinta foi
-            desenhada para ser a trilha sonora da sua vida espiritual. Entregamos uma transmissão
-            digital contínua que combina harmoniosamente duas vertentes para alimentar o seu
-            espírito:
+            A Rádio Sinta foi desenhada para ser a trilha sonora da sua vida espiritual. Entregamos
+            uma transmissão digital contínua que combina harmoniosamente duas vertentes para
+            alimentar o seu espírito:
           </p>
         </motion.div>
 
@@ -78,11 +77,9 @@ export function Essence() {
           <span className="inline-flex items-center gap-2 rounded-full border border-white/10 px-3 py-1.5">
             <Radio className="h-3.5 w-3.5 text-[#00D2FF]" /> Transmissão contínua 24/7
           </span>
+
           <span className="inline-flex items-center gap-2 rounded-full border border-white/10 px-3 py-1.5">
-            Sem comerciais invasivos
-          </span>
-          <span className="inline-flex items-center gap-2 rounded-full border border-white/10 px-3 py-1.5">
-            Otimizada para qualquer dispositivo
+            Otimizada para todos os dispositivos
           </span>
         </div>
       </div>

@@ -48,10 +48,10 @@ export function Sintonize() {
           transition={{ duration: 0.7 }}
         >
           <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/3 px-3 py-1 text-xs text-[#00D2FF]">
-            <Wifi className="h-3.5 w-3.5" /> Streaming otimizado
+            <Wifi className="h-3.5 w-3.5" /> Streaming Otimizado
           </div>
           <h2 className="font-display text-4xl font-bold leading-tight sm:text-5xl text-white">
-            Sinta a <span className="text-gradient-brand">Presença de Deus Onde Você For</span>
+            <span className="text-gradient-brand">Sinta a Presença de Deus</span> Onde Você For
           </h2>
           <p className="mt-6 text-lg text-white/70">
             Sem complicações, sem downloads pesados e sem gastar a memória do seu aparelho. A Rádio

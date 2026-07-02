@@ -7,8 +7,8 @@ export const radioData = {
   whatsappLink: "https://wa.me/5531988487320",
   instagramLink: "https://www.instagram.com/radiosinta",
   slogan: "Sinta a presença de Deus",
-  pixKey: "apoie@radiosinta.com.br",
-  pixHolder: "Rádio Sinta Digital / Banco Vinculado",
+  pixKey: "reinaldoazevedo10@outlook.com",
+  pixHolder: "Reinaldo de Azevedo Marcelino / Caixa Econômica Federal",
   nowPlaying: "Você está ouvindo: Conexão Viva — Rádio Sinta",
   credits: {
     text: "Desenvolvido por Douglas Borges - Smart Local",

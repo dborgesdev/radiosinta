@@ -2,6 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { Copy, Check, Sprout, QrCode } from "lucide-react";
 import { useRadioConfig } from "@/hooks/useRadioConfig";
+import qrCode from "@/assets/qrcode-pix.png";
 
 export function Semeadores() {
   const cfg = useRadioConfig();
@@ -33,10 +34,13 @@ export function Semeadores() {
             Apoie a Voz que <span className="text-gradient-brand">Leva Paz aos Corações</span>
           </h2>
           <p className="mt-6 text-lg text-white/70">
-            A Rádio Sinta é um projeto movido por amor, propósito e pela generosidade voluntária de pessoas como você. Cada segundo que permanecemos no ar, cada mensagem de salvação entregue e cada vida tocada é fruto direto dessa colheita coletiva.
+            A Rádio Sinta é um projeto movido por amor, propósito e pela generosidade voluntária de
+            pessoas como você. Cada segundo que permanecemos no ar, cada mensagem de salvação
+            entregue e cada vida tocada é fruto direto dessa colheita coletiva.
           </p>
           <p className="mt-4 text-white/60">
-            Ajude-nos a manter essa chama acesa e a expandir o alcance da palavra de Deus para milhares de novos lares.
+            Ajude-nos a manter essa chama acesa e a expandir o alcance da palavra de Deus para
+            milhares de novos lares.
           </p>
         </motion.div>
 
@@ -52,14 +56,15 @@ export function Semeadores() {
             className="relative overflow-hidden rounded-[28px] border p-8 shadow-[0_40px_120px_-30px_rgba(212,178,90,0.4)]"
             style={{
               borderColor: "rgba(212,178,90,0.35)",
-              background:
-                "linear-gradient(135deg, #0d0f1c 0%, #12131f 50%, #1a1418 100%)",
+              background: "linear-gradient(135deg, #0d0f1c 0%, #12131f 50%, #1a1418 100%)",
             }}
           >
             <div
               aria-hidden
               className="pointer-events-none absolute -right-10 -top-10 h-40 w-40 rounded-full"
-              style={{ background: "radial-gradient(circle, rgba(212,178,90,0.35), transparent 65%)" }}
+              style={{
+                background: "radial-gradient(circle, rgba(212,178,90,0.35), transparent 65%)",
+              }}
             />
 
             <div className="flex items-center justify-between">
@@ -77,7 +82,11 @@ export function Semeadores() {
             {/* Fake QR block */}
             <div className="mt-8 flex items-center justify-center">
               <div className="relative rounded-2xl border border-[#D4B25A]/30 bg-white p-3">
-                <FakeQR />
+                <img
+                  src={qrCode}
+                  alt="QR Code para doação via PIX"
+                  className="h-full w-full rounded-lg object-cover"
+                />
                 <div className="absolute -bottom-2 -right-2 rounded-full bg-[#0d0f1c] p-1.5">
                   <QrCode className="h-4 w-4 text-[#E6C572]" />
                 </div>
@@ -100,7 +109,7 @@ export function Semeadores() {
               className={`mt-8 flex w-full items-center justify-center gap-2 rounded-full py-3.5 text-sm font-semibold transition-all duration-500 ${
                 copied
                   ? "bg-[#00D2FF] text-[#031018]"
-                  : "bg-gradient-to-r from-[#D4B25A] to-[#E6C572] text-[#1a1200] hover:shadow-[0_10px_40px_-10px_rgba(212,178,90,0.7)]"
+                  : "bg-linear-to-r from-[#D4B25A] to-[#E6C572] text-[#1a1200] hover:shadow-[0_10px_40px_-10px_rgba(212,178,90,0.7)]"
               }`}
             >
               {copied ? (
@@ -125,18 +134,20 @@ function FakeQR() {
   const cells = Array.from({ length: 21 * 21 }, (_, i) => {
     const x = i % 21;
     const y = Math.floor(i / 21);
-    const isFinder =
-      (x < 7 && y < 7) || (x > 13 && y < 7) || (x < 7 && y > 13);
+    const isFinder = (x < 7 && y < 7) || (x > 13 && y < 7) || (x < 7 && y > 13);
     if (isFinder) {
       const cx = x < 7 ? 3 : 17;
       const cy = y < 7 ? 3 : 17;
       const d = Math.max(Math.abs(x - cx), Math.abs(y - cy));
       return d === 0 || d === 2 || d === 3;
     }
-    return ((x * 31 + y * 17 + 7) % 3) === 0;
+    return (x * 31 + y * 17 + 7) % 3 === 0;
   });
   return (
-    <div className="grid h-32 w-32 grid-cols-21 gap-0" style={{ gridTemplateColumns: "repeat(21,1fr)" }}>
+    <div
+      className="grid h-32 w-32 grid-cols-21 gap-0"
+      style={{ gridTemplateColumns: "repeat(21,1fr)" }}
+    >
       {cells.map((on, i) => (
         <div key={i} className={on ? "bg-[#0a0a0a]" : "bg-white"} />
       ))}

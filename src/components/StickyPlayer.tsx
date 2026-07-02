@@ -5,7 +5,7 @@ import { useRadioConfig } from "@/hooks/useRadioConfig";
 
 export function StickyPlayer() {
   const cfg = useRadioConfig();
-  const [expanded, setExpanded] = useState(false);
+  const [expanded, setExpanded] = useState(true);
 
   async function share() {
     const data = {
