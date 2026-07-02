@@ -7,9 +7,9 @@ export function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="relative border-t border-white/10 bg-[#04060f] pb-40 pt-20">
-      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-12 px-6 sm:px-10 lg:grid-cols-4">
-        <div className="lg:col-span-2">
+    <footer className="relative border-t border-white/10 bg-[#04060f] pb-50 pt-20">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-12 px-6 sm:px-10 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="flex flex-col items-center text-center sm:items-start sm:text-left">
           <div className="flex items-center gap-3">
             <img
               src={logoAsset}
@@ -47,7 +47,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div>
+        <div className="flex flex-col items-center text-center sm:items-start sm:text-left">
           <div className="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-[#00D2FF]">
             Navegar
           </div>
@@ -62,7 +62,7 @@ export function Footer() {
           </ul>
         </div>
 
-        <div>
+        <div className="flex flex-col items-center text-center sm:items-start sm:text-left">
           <div className="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-[#00D2FF]">
             Apoie
           </div>
@@ -76,10 +76,38 @@ export function Footer() {
             <Heart className="h-3.5 w-3.5 fill-current" /> Doar agora
           </a>
         </div>
+
+        <div className="flex flex-col items-center sm:items-start gap-3">
+          <div className="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-[#00D2FF]">
+            Publicidade
+          </div>
+          <a
+            href="https://www.radios.com.br/aovivo/radio-sinta/275784"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <img
+              src="/radiosnet.webp"
+              alt="RádiosNet"
+              className="w-30 h-14 rounded-sm drop-shadow-[0_0_20px_rgba(0,210,255,0.4)]"
+            />
+          </a>
+          <a
+            href="https://onlineradiobox.com/br/sinta/?cs=br.sinta&q=Radio%20sinta&c=br"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <img
+              src="/radiobox.webp"
+              alt="Online Radio Box"
+              className="w-30 h-14 rounded-sm drop-shadow-[0_0_20px_rgba(0,210,255,0.4)]"
+            />
+          </a>
+        </div>
       </div>
 
       <div className="mx-auto mt-16 max-w-7xl border-t border-white/5 px-6 pt-6 sm:px-10">
-        <div className="flex flex-col items-start justify-between gap-3 text-xs text-white/50 sm:flex-row sm:items-center">
+        <div className="flex flex-col text-center justify-between gap-3 text-xs text-white/50 sm:flex-row items-center">
           <div>
             © {year} {cfg.name}. Todos os direitos reservados. {cfg.slogan}
           </div>
