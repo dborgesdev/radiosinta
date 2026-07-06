@@ -78,10 +78,10 @@ export function Footer() {
             Apoie
           </div>
           <p className="mb-4 text-sm text-white/60">
-            Ajude a manter a rádio no ar. Seja um semeador da paz.
+            Ajude a manter a rádio no ar. Seja um doador da paz.
           </p>
           <a
-            href="#semeadores"
+            href="#doadores"
             className="inline-flex items-center gap-2 rounded-full bg-linear-to-r from-[#FF9100] to-[#FF3D8B] px-4 py-2.5 text-xs font-semibold text-white shadow-[0_10px_30px_-10px_rgba(255,61,139,0.6)]"
           >
             <Heart className="h-3.5 w-3.5 fill-current" /> Doar agora

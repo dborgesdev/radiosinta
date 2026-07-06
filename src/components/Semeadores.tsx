@@ -19,7 +19,7 @@ export function Semeadores() {
   }
 
   return (
-    <section id="semeadores" className="relative py-32">
+    <section id="doadores" className="relative py-32">
       <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-16 px-6 sm:px-10 lg:grid-cols-[1.05fr_1fr]">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -28,7 +28,7 @@ export function Semeadores() {
           transition={{ duration: 0.7 }}
         >
           <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-[#D4B25A]/30 bg-[#D4B25A]/5 px-3 py-1 text-xs text-[#E6C572]">
-            <Sprout className="h-3.5 w-3.5" /> Seja um Semeador
+            <Sprout className="h-3.5 w-3.5" /> Seja um Doador
           </div>
           <h2 className="font-display text-4xl font-bold leading-tight sm:text-5xl">
             Apoie a Voz que <span className="text-gradient-brand">Leva Paz aos Corações</span>
@@ -70,7 +70,7 @@ export function Semeadores() {
             <div className="flex items-center justify-between">
               <div>
                 <div className="text-[10px] uppercase tracking-[0.3em] text-[#E6C572]">
-                  Cartão do Semeador
+                  Cartão do Doador
                 </div>
                 <div className="mt-1 font-display text-2xl font-bold">Rádio Sinta</div>
               </div>

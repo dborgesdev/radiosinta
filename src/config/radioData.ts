@@ -19,7 +19,7 @@ export const radioData = {
     { label: "Início", href: "#inicio" },
     { label: "Programação", href: "#essencia" },
     { label: "Sintonize", href: "#sintonize" },
-    { label: "Apoie", href: "#semeadores" },
+    { label: "Apoie", href: "#doadores" },
   ],
   artists: [
     "Bruna Karla",

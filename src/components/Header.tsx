@@ -55,9 +55,9 @@ export function Header() {
         </nav>
 
         <div className="flex flex-1 justify-end">
-          <MagneticButton href="#semeadores">
+          <MagneticButton href="#doadores">
             <div className="border-gradient-brand relative overflow-hidden rounded-full px-5 py-2.5 text-xs sm:text-sm font-semibold text-white transition-all duration-500 hover:shadow-[0_0_30px_rgba(255,145,0,0.6)]">
-              <span className="relative z-10">Seja um Semeador</span>
+              <span className="relative z-10">Seja um Doador</span>
               <span className="absolute inset-0 z-0 translate-y-full bg-linear-to-r from-[#00D2FF] via-[#FF3D8B] to-[#FF9100] transition-transform duration-500 hover:translate-y-0" />
             </div>
           </MagneticButton>
