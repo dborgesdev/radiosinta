@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from "react";
+import ReactGA from "react-ga4";
 import { motion } from "framer-motion";
 import { Share2, Radio, ChevronUp, ChevronDown, Play, Pause, RefreshCw } from "lucide-react";
 import { useRadioConfig } from "@/hooks/useRadioConfig";
@@ -69,6 +70,14 @@ export function StickyPlayer() {
 
   const togglePlayPause = () => {
     if (playerMode === "backup") {
+      // Rastreia cliques no play/pause do modo de contingência (Iframe)
+      const nextState = !isPlaying ? "play" : "pause";
+      ReactGA.event({
+        category: "Player_Contingencia",
+        action: nextState,
+        label: "Iframe RadiosNet",
+      });
+
       setIsPlaying(!isPlaying);
       return;
     }
@@ -80,18 +89,45 @@ export function StickyPlayer() {
       audioRef.current.removeAttribute("src"); // Mata o fluxo de rede e limpa o cache
       audioRef.current.load();
       setIsPlaying(false);
+
+      // 📊 EVENTO: Usuário pausou a rádio premium
+      ReactGA.event({
+        category: "Player_Premium",
+        action: "pause",
+        label: "Audio Nativo M3U",
+      });
     } else {
       audioRef.current.src = NATIVE_STREAM_URL;
       audioRef.current.load();
       audioRef.current
         .play()
-        .then(() => setIsPlaying(true))
-        .catch((err) => console.error("Erro ao dar play no áudio nativo:", err));
+        .then(() => {
+          setIsPlaying(true);
+
+          // 📊 EVENTO: Usuário deu play com sucesso na rádio premium
+          ReactGA.event({
+            category: "Player_Premium",
+            action: "play",
+            label: "Audio Nativo M3U",
+          });
+        })
+        .catch((err) => console.error("Erro ao dar play:", err));
     }
   };
 
   const switchPlayerMode = () => {
-    setPlayerMode((prev) => (prev === "native" ? "backup" : "native"));
+    setPlayerMode((prev) => {
+      const nextMode = prev === "native" ? "backup" : "native";
+
+      // 📊 EVENTO: Rastreia quantas pessoas estão precisando alternar o player
+      ReactGA.event({
+        category: "Player_Acao",
+        action: "alternar_reprodutor",
+        label: `Mudou para ${nextMode}`,
+      });
+
+      return nextMode;
+    });
   };
 
   return (
