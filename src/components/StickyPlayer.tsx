@@ -13,7 +13,7 @@ export function StickyPlayer() {
   // URL fixa e estática extraída do arquivo de playlist M3U
   const NATIVE_STREAM_URL = "https://live9.livemus.com.br:28118/stream";
 
-  // Adicione este useEffect dentro do seu componente StickyPlayer
+  // Reproduzir Audio Automaticamente na primeira interação do usuário (click ou touchstart)
   useEffect(() => {
     const handleFirstInteraction = () => {
       if (!audioRef.current || isPlaying) return;
