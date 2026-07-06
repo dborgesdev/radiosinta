@@ -51,12 +51,25 @@ export function StickyPlayer() {
             </div>
 
             <div className="min-w-0">
-              <div className="flex items-center gap-2 text-[9px] uppercase tracking-[0.25em] text-[#00D2FF] font-semibold">
+              <div className="flex items-center gap-2 text-[9px] uppercase tracking-[0.25em] text-white/60 font-semibold">
                 <span>AO VIVO 24H</span>
               </div>
-              <div className="truncate text-sm font-bold text-white tracking-tight">
-                {cfg.name || "Rádio Sinta"} —{" "}
-                <span className="text-white/60 font-normal italic">Sinta a presença de Deus</span>
+              <div className="truncate text-sm font-black text-white tracking-tight flex items-center gap-x-1">
+                {/* Container com drop-shadow escuro para emular a profundidade do logo-radio-sinta.webp */}
+                <div className="inline-flex font-black tracking-tight drop-shadow-[0_2px_3px_rgba(0,0,0,0.95)]">
+                  {/* Palavra: Rádio */}
+                  <span className="bg-linear-to-b from-[#00D2FF] to-[#0047FF] bg-clip-text text-transparent pr-1">
+                    Rádio
+                  </span>
+                  {/* Palavra: Sinta */}
+                  <span className="bg-linear-to-b from-[#FFD600] to-[#FF6B00] bg-clip-text text-transparent">
+                    Sinta
+                  </span>
+                </div>
+
+                <span className="text-white/60 font-normal italic ml-1">
+                  — Sinta a presença de Deus
+                </span>
               </div>
             </div>
           </div>

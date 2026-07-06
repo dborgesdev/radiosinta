@@ -6,6 +6,7 @@ export const radioData = {
   phoneFormatted: "",
   whatsappLink: "https://wa.me/",
   instagramLink: "https://www.instagram.com/radiosinta",
+  mailLink: "mailto:radiosinta@gmail.com",
   slogan: "Sinta a presença de Deus",
   pixKey: "radiosinta@gmail.com",
   pixHolder: "Caixa Econômica Federal",
@@ -30,6 +31,9 @@ export const radioData = {
     "Leandro Borges",
     "Anderson Freire",
     "Kemuel",
+    "Adoração Central",
+    "Thalles Roberto",
+    "Preto no Branco",
   ],
 } as const;
 

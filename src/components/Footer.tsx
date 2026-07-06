@@ -1,4 +1,4 @@
-import { Instagram, Heart } from "lucide-react";
+import { Instagram, Heart, Mail } from "lucide-react";
 import { useRadioConfig } from "@/hooks/useRadioConfig";
 import logoAsset from "@/assets/logo-radio-sinta.webp";
 
@@ -25,6 +25,16 @@ export function Footer() {
           </p>
           <div className="mt-6 flex items-center gap-3">
             <a
+              href={cfg.mailLink}
+              target="_blank"
+              rel="noreferrer noopener"
+              aria-label="Envie um e-mail"
+              className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 text-white/70 transition-all hover:border-[#FF3D8B]/50 hover:text-[#FF3D8B]"
+            >
+              <Mail className="h-4 w-4" />
+            </a>
+
+            <a
               href={cfg.instagramLink}
               target="_blank"
               rel="noreferrer noopener"
@@ -33,6 +43,7 @@ export function Footer() {
             >
               <Instagram className="h-4 w-4" />
             </a>
+
             {/* <a
               href={cfg.whatsappLink}
               target="_blank"
