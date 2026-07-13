@@ -31,7 +31,7 @@ export function Artistas() {
           As Vozes que <span className="text-gradient-brand shadow-sm">Conectam Você ao Altar</span>
         </motion.h2>
         <p className="mt-6 text-white/80 max-w-3xl mx-auto text-base sm:text-lg font-medium leading-relaxed drop-shadow-sm">
-          Sintonize-se com os ministérios e artists que marcam gerações e lideram a adoração no
+          Sintonize-se com os ministérios e artistas que marcam gerações e lideram a adoração no
           Brasil. Na nossa programação musical contínua, você ouve os maiores sucessos de...
         </p>
       </div>
