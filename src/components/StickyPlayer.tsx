@@ -17,23 +17,20 @@ export function StickyPlayer() {
   // Reproduzir Audio Automaticamente na primeira interação do usuário (click ou touchstart)
   useEffect(() => {
     const handleFirstInteraction = () => {
-      if (!audioRef.current || isPlaying) return;
+      if (!audioRef.current || isPlaying || playerMode === "backup") return;
 
-      // Injeta a URL e tenta rodar o áudio na primeira interação do usuário
       audioRef.current.src = NATIVE_STREAM_URL;
       audioRef.current.load();
       audioRef.current
         .play()
         .then(() => {
           setIsPlaying(true);
-          // Remove os listeners para não executar novamente
           document.removeEventListener("click", handleFirstInteraction);
           document.removeEventListener("touchstart", handleFirstInteraction);
         })
         .catch((err) => console.log("Autoplay ainda bloqueado pelo navegador:", err));
     };
 
-    // Escuta interações tanto no Desktop quanto no Mobile
     document.addEventListener("click", handleFirstInteraction);
     document.addEventListener("touchstart", handleFirstInteraction);
 
@@ -41,16 +38,22 @@ export function StickyPlayer() {
       document.removeEventListener("click", handleFirstInteraction);
       document.removeEventListener("touchstart", handleFirstInteraction);
     };
-  }, [isPlaying]);
+  }, [isPlaying, playerMode]);
 
-  // Sincroniza o estado se o modo mudar com a rádio tocando
+  // 🔄 CONTROLE DE ECO: Isolamento cirúrgico dos barramentos de áudio ao alternar modos
   useEffect(() => {
-    if (playerMode === "backup" && audioRef.current) {
-      audioRef.current.pause();
-      audioRef.current.removeAttribute("src");
-      audioRef.current.load();
+    if (playerMode === "backup") {
+      // 1. Mata instantaneamente o streaming nativo e libera a rede
+      if (audioRef.current) {
+        audioRef.current.pause();
+        audioRef.current.removeAttribute("src");
+        audioRef.current.load();
+      }
       setIsPlaying(false);
       setExpanded(true); // Garante que o backup abre expandido ao alternar
+    } else {
+      // 2. Ao voltar para o nativo, garante que o iframe de backup foi neutralizado e o player nativo inicia pausado
+      setIsPlaying(false);
     }
   }, [playerMode]);
 
@@ -70,12 +73,13 @@ export function StickyPlayer() {
 
   const togglePlayPause = () => {
     if (playerMode === "backup") {
-      // Rastreia cliques no play/pause do modo de contingência (Iframe)
       const nextState = !isPlaying ? "play" : "pause";
-      ReactGA.event({
-        category: "Player_Contingencia",
-        action: nextState,
-        label: "Iframe RadiosNet",
+
+      // 📊 EVENTO GA4 CONVERTIDO (Modo Contingência)
+      ReactGA.event("player_interaction", {
+        player_type: "backup_iframe",
+        action_state: nextState,
+        media_type: "Iframe RadiosNet",
       });
 
       setIsPlaying(!isPlaying);
@@ -90,11 +94,11 @@ export function StickyPlayer() {
       audioRef.current.load();
       setIsPlaying(false);
 
-      // 📊 EVENTO: Usuário pausou a rádio premium
-      ReactGA.event({
-        category: "Player_Premium",
-        action: "pause",
-        label: "Audio Nativo M3U",
+      // 📊 EVENTO GA4 CONVERTIDO (Pause Premium)
+      ReactGA.event("player_interaction", {
+        player_type: "premium_native",
+        action_state: "pause",
+        media_type: "Audio Nativo M3U",
       });
     } else {
       audioRef.current.src = NATIVE_STREAM_URL;
@@ -104,11 +108,11 @@ export function StickyPlayer() {
         .then(() => {
           setIsPlaying(true);
 
-          // 📊 EVENTO: Usuário deu play com sucesso na rádio premium
-          ReactGA.event({
-            category: "Player_Premium",
-            action: "play",
-            label: "Audio Nativo M3U",
+          // 📊 EVENTO GA4 CONVERTIDO (Play Premium - Sintaxe Nativa Segura)
+          ReactGA.event("player_interaction", {
+            player_type: "premium_native",
+            action_state: "play",
+            media_type: "Audio Nativo M3U",
           });
         })
         .catch((err) => console.error("Erro ao dar play:", err));
@@ -119,11 +123,10 @@ export function StickyPlayer() {
     setPlayerMode((prev) => {
       const nextMode = prev === "native" ? "backup" : "native";
 
-      // 📊 EVENTO: Rastreia quantas pessoas estão precisando alternar o player
-      ReactGA.event({
-        category: "Player_Acao",
-        action: "alternar_reprodutor",
-        label: `Mudou para ${nextMode}`,
+      // 📊 EVENTO GA4 CONVERTIDO (Alternância de Player)
+      ReactGA.event("player_action", {
+        action_name: "alternar_reprodutor",
+        target_mode: nextMode,
       });
 
       return nextMode;
@@ -204,7 +207,7 @@ export function StickyPlayer() {
           {/* Right Side: Actions & Mode Switch */}
           <div className="flex items-center gap-2 shrink-0">
             {/* Botão de Alternância de Reprodutor */}
-            <button
+            {/* <button
               onClick={switchPlayerMode}
               title={
                 playerMode === "native"
@@ -219,7 +222,7 @@ export function StickyPlayer() {
               <span className="hidden md:inline">
                 {playerMode === "native" ? "Alternar Reprodutor" : "Usar Player Principal"}
               </span>
-            </button>
+            </button> */}
 
             {/* Botão de Compartilhar */}
             <button
@@ -230,7 +233,7 @@ export function StickyPlayer() {
               <Share2 className="h-4 w-4" />
             </button>
 
-            {/* Botão Expandir/Recolher: Renderizado estritamente na versão de Backup */}
+            {/* Botão Expandir/Recolher */}
             {playerMode === "backup" && (
               <button
                 onClick={() => setExpanded((e) => !e)}
@@ -247,14 +250,14 @@ export function StickyPlayer() {
           </div>
         </div>
 
-        {/* Seção Dinâmica do Iframe de Backup */}
+        {/* Seção Dinâmica do Iframe de Backup (Garante a destruição real do elemento quando desativado) */}
         <motion.div
           animate={{ height: expanded && playerMode === "backup" ? 86 : 0 }}
           initial={{ height: 0 }}
           transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
           className="overflow-hidden border-t border-white/10 bg-black/40"
         >
-          {playerMode === "backup" && (
+          {playerMode === "backup" ? (
             <iframe
               src={cfg.iframeUrl}
               title="Rádio Sinta - Player de Contingência"
@@ -263,7 +266,7 @@ export function StickyPlayer() {
               loading="eager"
               style={{ border: 0 }}
             />
-          )}
+          ) : null}
         </motion.div>
       </div>
     </motion.div>

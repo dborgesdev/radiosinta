@@ -81,17 +81,17 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "robots", content: "index, follow" },
 
       /* SEO Primário Google */
-      { title: "Rádio Sinta — Rádio Gospel Online 24h | Louvor e Paz" },
+      { title: "Rádio Sinta — Sinta a presença de Deus" },
       {
         name: "description",
         content:
-          "Rádio Sinta: rádio gospel online 24h tocando sempre o que acalma seu coração. Sinta a presença de Deus através de louvores selecionados e mensagens de paz.",
+          "Rádio Sinta: Sinta a presença de Deus através de louvores selecionados e mensagens de paz. Rádio online 24h tocando sempre o que acalma seu coração.",
       },
       { name: "author", content: "Rádio Sinta" },
       { name: "theme-color", content: "#060913" },
 
       /* Open Graph / Facebook */
-      { property: "og:title", content: "Rádio Sinta — Rádio Gospel Online 24h | Louvor e Paz" },
+      { property: "og:title", content: "Rádio Sinta — Sinta a presença de Deus" },
       {
         property: "og:description",
         content:
@@ -108,7 +108,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
       /* Twitter Cards */
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Rádio Sinta — Rádio Gospel Online 24h | Louvor e Paz" },
+      { name: "twitter:title", content: "Rádio Sinta — Sinta a presença de Deus" },
       {
         name: "twitter:description",
         content:

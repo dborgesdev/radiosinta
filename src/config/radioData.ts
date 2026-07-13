@@ -22,6 +22,8 @@ export const radioData = {
     { label: "Apoie", href: "#doadores" },
   ],
   artists: [
+    "Hillsong",
+    "Cece Winans",
     "Bruna Karla",
     "Fernandinho",
     "Aline Barros",
