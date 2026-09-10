@@ -1,10 +1,14 @@
 import { motion } from "framer-motion";
-import { Play, Signal, Wifi, Bookmark } from "lucide-react";
+import { Play, Signal, Wifi, Download } from "lucide-react";
 import { MagneticButton } from "@/components/ui/MagneticButton";
 import { useRadioConfig } from "@/hooks/useRadioConfig";
+import appIcons from "@/assets/app-brands.png";
 
 export function Sintonize() {
   const cfg = useRadioConfig();
+
+  // Link inteligente que identifica o sistema operacional no destino
+  const APP_DOWNLOAD_URL = "https://applm.livemus.com.br/28118";
 
   // Texto customizado para o compartilhamento viral
   const shareText = encodeURIComponent(
@@ -12,29 +16,6 @@ export function Sintonize() {
   );
 
   const whatsappShareUrl = `https://api.whatsapp.com/send?text=${shareText}`;
-
-  // Função cirúrgica para lidar com a adição aos favoritos (Fallback Elegante)
-  const handleAddToBookmarks = (e: React.MouseEvent) => {
-    e.preventDefault();
-
-    const isMac = navigator.userAgent.toLowerCase().includes("mac");
-    const shortcut = isMac ? "💥 Pressione Cmd + D" : "💥 Pressione Ctrl + D";
-
-    // Verifica se o navegador suporta o compartilhamento nativo como fallback alternativo
-    if (navigator.share) {
-      navigator
-        .share({
-          title: cfg.name,
-          text: cfg.slogan,
-          url: window.location.href,
-        })
-        .catch(() => {
-          /* User cancelled */
-        });
-    } else {
-      alert(`${shortcut} para salvar a rádio diretamente nos favoritos do seu navegador!`);
-    }
-  };
 
   return (
     <section id="sintonize" className="relative overflow-hidden py-32 bg-[#060913]">
@@ -54,28 +35,29 @@ export function Sintonize() {
             <span className="text-gradient-brand">Sinta a Presença de Deus</span> Onde Você For
           </h2>
           <p className="mt-6 text-lg text-white/70">
-            Sem complicações, sem downloads pesados e sem gastar a memória do seu aparelho. A Rádio
-            Sinta é totalmente otimizada para o seu smartphone, tablet ou computador.
+            Tenha a Rádio Sinta sempre à mão. Instale nosso aplicativo oficial no seu dispositivo
+            Android, iPhone ou Windows e aproveite nossa programação em tempo real com máxima
+            qualidade.
           </p>
           <p className="mt-4 text-white/60">
-            Onde quer que você esteja: em casa, no trânsito ou no escritório, basta um clique para
-            transformar o seu dispositivo em um canal direto de adoração. Salve nosso site nos seus
-            favoritos e tenha um refúgio espiritual sempre ao alcance das suas mãos.
+            Em casa, no trânsito ou no trabalho, transforme seu dispositivo em um altar de adoração.
+            O aplicativo reconhece seu aparelho automaticamente e realiza a instalação sem
+            complicação.
           </p>
 
-          <div className="mt-8 flex flex-wrap gap-3">
-            {/* Botão de Favoritos com Intercepção Controlada */}
-            <div onClick={handleAddToBookmarks} className="cursor-pointer">
-              <MagneticButton>
-                <div className="inline-flex items-center gap-3 rounded-full bg-linear-to-r from-[#00D2FF] to-[#7B5CFF] px-6 py-3 text-sm font-semibold text-[#03111a] shadow-[0_10px_40px_-10px_rgba(0,210,255,0.6)] hover:scale-[1.02] active:scale-98 transition-transform">
-                  <Bookmark className="h-4 w-4 fill-current" /> Salvar nos Favoritos
-                </div>
-              </MagneticButton>
-            </div>
+          <div className="mt-8 flex flex-wrap items-center gap-3">
+            {/* Botão Único de Instalação Universal do App */}
+            <MagneticButton href={APP_DOWNLOAD_URL}>
+              <div className="inline-flex items-center gap-3 rounded-full bg-linear-to-r from-[#00D2FF] to-[#7B5CFF] px-6 py-3.5 text-sm font-semibold text-[#03111a] shadow-[0_10px_40px_-10px_rgba(0,210,255,0.6)] hover:scale-[1.02] active:scale-98 transition-transform cursor-pointer">
+                <img src={appIcons} alt="App Icons" className="h-4 w-auto brightness-0" />
+                <span>Instalar App</span>
+                <Download className="h-4 w-4 opacity-80" />
+              </div>
+            </MagneticButton>
 
-            {/* Botão de Compartilhamento Direto para Contatos do WhatsApp */}
+            {/* Botão de Compartilhamento Direto no WhatsApp */}
             <MagneticButton href={whatsappShareUrl}>
-              <div className="inline-flex items-center gap-3 rounded-full border border-white/15 bg-white/2 px-6 py-3 text-sm font-medium text-white/80 hover:border-white/40 hover:bg-white/5 hover:text-white transition-all">
+              <div className="inline-flex items-center gap-3 rounded-full border border-white/15 bg-white/2 px-6 py-3.5 text-sm font-medium text-white/80 hover:border-white/40 hover:bg-white/5 hover:text-white transition-all">
                 Compartilhar no WhatsApp
               </div>
             </MagneticButton>
