@@ -8,7 +8,7 @@ export function Sintonize() {
   const cfg = useRadioConfig();
 
   // Link inteligente que identifica o sistema operacional no destino
-  const APP_DOWNLOAD_URL = "https://applm.livemus.com.br/28118";
+  const APP_DOWNLOAD_URL = "https://play.radiosinta.com.br/";
 
   // Texto customizado para o compartilhamento viral
   const shareText = encodeURIComponent(

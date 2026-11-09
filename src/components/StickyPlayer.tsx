@@ -12,7 +12,7 @@ export function StickyPlayer() {
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
   // URL fixa e estática extraída do arquivo de playlist M3U
-  const NATIVE_STREAM_URL = "https://live9.livemus.com.br:28118/stream";
+  const NATIVE_STREAM_URL = "https://stmplay.com/listen/radiosinta300014/radio.mp3";
 
   // Reproduzir Audio Automaticamente na primeira interação do usuário (click ou touchstart)
   useEffect(() => {
