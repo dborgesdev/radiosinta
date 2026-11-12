@@ -118,21 +118,6 @@ export function Footer() {
       </div>
 
       <div className="mx-auto mt-16 max-w-7xl border-t border-white/5 px-6 pt-6 sm:px-10">
-        <p className="bible-credit">
-          Versículos da{" "}
-          <a href="https://github.com/blivre/BibliaLivre" target="_blank" rel="noopener noreferrer">
-            Bíblia Livre (BLIVRE)
-          </a>
-          , edição de fevereiro de 2018. © Diego Santos, Mario Sérgio e Marco Teles.{" "}
-          <a
-            href="https://creativecommons.org/licenses/by/3.0/br/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            CC BY 3.0 Brasil
-          </a>
-          .
-        </p>
         <div className="flex flex-col text-center justify-between gap-3 text-xs text-white/50 sm:flex-row items-center">
           <div>
             © {year} {cfg.name}. Todos os direitos reservados. {cfg.slogan}
