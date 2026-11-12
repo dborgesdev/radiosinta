@@ -17,7 +17,7 @@ export const radioData = {
   },
   nav: [
     { label: "Início", href: "#inicio" },
-    { label: "Programação", href: "#essencia" },
+    { label: "Notícias", href: "#noticias" },
     { label: "Instalar App", href: "#sintonize" },
     { label: "Apoie", href: "#doadores" },
   ],

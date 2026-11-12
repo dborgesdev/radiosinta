@@ -1,6 +1,7 @@
 @import "tailwindcss" source(none);
 @source "../src";
 @import "tw-animate-css";
+@import "./styles/home.css";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -63,8 +64,12 @@
 }
 
 @layer base {
-  * { border-color: var(--color-border); }
-  html { scroll-behavior: smooth; }
+  * {
+    border-color: var(--color-border);
+  }
+  html {
+    scroll-behavior: smooth;
+  }
   body {
     background-color: #060913;
     color: var(--color-foreground);
@@ -72,7 +77,13 @@
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
   }
-  h1, h2, h3, h4 { font-family: var(--font-display); letter-spacing: -0.02em; }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
 }
 
 /* Persistent digital noise grain overlay */
@@ -88,7 +99,7 @@
 }
 
 .text-gradient-brand {
-  background: linear-gradient(120deg, #00D2FF 0%, #7B5CFF 45%, #FF9100 100%);
+  background: linear-gradient(120deg, #00d2ff 0%, #7b5cff 45%, #ff9100 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -98,23 +109,45 @@
   border: 1px solid transparent;
   background:
     linear-gradient(#0b1020, #0b1020) padding-box,
-    linear-gradient(120deg, #00D2FF, #FF3D8B, #FF9100) border-box;
+    linear-gradient(120deg, #00d2ff, #ff3d8b, #ff9100) border-box;
 }
 
 @keyframes eq-bounce {
-  0%, 100% { transform: scaleY(0.35); }
-  50% { transform: scaleY(1); }
+  0%,
+  100% {
+    transform: scaleY(0.35);
+  }
+  50% {
+    transform: scaleY(1);
+  }
 }
-.eq-bar { animation: eq-bounce 0.9s ease-in-out infinite; transform-origin: bottom; }
+.eq-bar {
+  animation: eq-bounce 0.9s ease-in-out infinite;
+  transform-origin: bottom;
+}
 
 @keyframes pulse-ring {
-  0% { transform: scale(1); opacity: 0.7; }
-  100% { transform: scale(2.4); opacity: 0; }
+  0% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(2.4);
+    opacity: 0;
+  }
 }
-.pulse-ring { animation: pulse-ring 2.6s cubic-bezier(0.4,0,0.6,1) infinite; }
+.pulse-ring {
+  animation: pulse-ring 2.6s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
 
 @keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
-.marquee-track { animation: marquee 40s linear infinite; }
+.marquee-track {
+  animation: marquee 40s linear infinite;
+}

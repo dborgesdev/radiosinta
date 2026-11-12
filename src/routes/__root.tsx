@@ -11,6 +11,9 @@ import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 import { reportError } from "../lib/error-reporting";
+import { RadioProvider } from "../components/RadioProvider";
+import { StickyPlayer } from "../components/StickyPlayer";
+import { MotionConfig } from "framer-motion";
 
 function NotFoundComponent() {
   return (
@@ -117,6 +120,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:image", content: "/og-image.webp" },
     ],
     links: [
+      {
+        rel: "preload",
+        href: "/fonts/baloo-2-latin-800.woff2",
+        as: "font",
+        type: "font/woff2",
+        crossOrigin: "anonymous",
+      },
       { rel: "stylesheet", href: appCss },
       { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -157,7 +167,12 @@ function RootComponent() {
   return (
     <QueryClientProvider client={queryClient}>
       {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
-      <Outlet />
+      <MotionConfig reducedMotion="user">
+        <RadioProvider>
+          <Outlet />
+          <StickyPlayer />
+        </RadioProvider>
+      </MotionConfig>
     </QueryClientProvider>
   );
 }
