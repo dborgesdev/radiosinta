@@ -1,12 +1,11 @@
-import { Pause, Play, Smartphone, ArrowUpRight, LoaderCircle } from "lucide-react";
-import { useRadio } from "@/hooks/useRadio";
+import { Smartphone, ArrowUpRight } from "lucide-react";
+import { PlaybackButton } from "./PlaybackButton";
+import { HeroPlayer } from "./HeroPlayer";
 import { NowPlayingCard } from "./NowPlayingCard";
 import { useRadioConfig } from "@/hooks/useRadioConfig";
 
 export function Hero() {
   const cfg = useRadioConfig();
-  const { state, toggle } = useRadio();
-  const Icon = state === "playing" ? Pause : state === "loading" ? LoaderCircle : Play;
   return (
     <section id="inicio" className="radio-hero">
       <div className="radio-container hero-grid">
@@ -22,32 +21,23 @@ export function Hero() {
             </span>
           </h1>
           <p className="hero-slogan">{cfg.slogan}</p>
-          <p className="hero-description">
-            Uma pausa para a alma. Louvores que acolhem e mensagens que renovam a sua fé, a qualquer
-            hora do dia.
-          </p>
           <div className="hero-actions">
-            <button
-              className="radio-primary"
-              onClick={toggle}
-              aria-label={state === "playing" ? "Pausar rádio" : "Ouvir rádio agora"}
-            >
-              <Icon size={19} className={state === "loading" ? "animate-spin" : ""} />
-              {state === "playing"
-                ? "Pausar rádio"
-                : state === "loading"
-                  ? "Conectando…"
-                  : "Ouvir agora"}
-            </button>
+            <PlaybackButton className="radio-primary" label />
             <a
               className="radio-secondary"
               href="https://play.radiosinta.com.br/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Smartphone size={17} /> Instalar aplicativo <ArrowUpRight size={15} />
+              <Smartphone size={17} /> <span className="app-label">Instalar aplicativo</span>{" "}
+              <ArrowUpRight size={15} />
             </a>
           </div>
+          <HeroPlayer />
+          <p className="hero-description">
+            Uma pausa para a alma. Louvores que acolhem e mensagens que renovam a sua fé, a qualquer
+            hora do dia.
+          </p>
           <div className="hero-footnote">
             <span className="signal-bars" aria-hidden="true">
               <i />

@@ -1,7 +1,6 @@
 import { useState } from "react";
-import { useQuery } from "@tanstack/react-query";
 import { ArrowUpRight } from "lucide-react";
-import { readService, useVisible } from "@/hooks/useNowPlaying";
+import { useNews } from "@/hooks/useNews";
 import type { NewsItem } from "@/lib/news/types";
 
 const dateLabel = (value: string) =>
@@ -50,22 +49,9 @@ export function NewsCard({ item, featured = false }: { item: NewsItem; featured?
     </article>
   );
 }
-function useNews(path: string, key: string, visible: boolean) {
-  return useQuery({
-    queryKey: ["news", key],
-    queryFn: ({ signal }) => readService<NewsItem[]>(path, signal),
-    enabled: visible,
-    staleTime: 900_000,
-    gcTime: 86_400_000,
-    refetchInterval: visible ? 900_000 : false,
-    refetchIntervalInBackground: false,
-    retry: false,
-  });
-}
 export function NewsSection() {
-  const visible = useVisible();
-  const gospel = useNews("/api/news/gospel", "gospel", visible);
-  const regional = useNews("/api/news", "regional", visible);
+  const gospel = useNews("gospel");
+  const regional = useNews("regional");
   const highlights = gospel.data?.data ?? [];
   const local = regional.data?.data?.slice(0, 6) ?? [];
   return (
