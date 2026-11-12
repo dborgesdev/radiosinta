@@ -1,16 +1,16 @@
 import { useState } from "react";
-import { Play, Pause, Share2, Volume2, LoaderCircle } from "lucide-react";
+import { Share2, Volume2 } from "lucide-react";
+import { PlaybackButton } from "./PlaybackButton";
 import { useRadio } from "@/hooks/useRadio";
 import { CoverArt } from "./CoverArt";
 import { useRadioConfig } from "@/hooks/useRadioConfig";
 import { shareOrCopy } from "@/lib/share";
 
-export function StickyPlayer() {
+export function HeroPlayer() {
   const cfg = useRadioConfig();
-  const { nowPlaying, state, volume, setVolume, toggle } = useRadio();
+  const { nowPlaying, state, volume, setVolume } = useRadio();
   const [feedback, setFeedback] = useState("");
   const [volumeOpen, setVolumeOpen] = useState(false);
-  const Icon = state === "playing" ? Pause : state === "loading" ? LoaderCircle : Play;
   async function share() {
     const result = await shareOrCopy({
       title: cfg.name,
@@ -26,8 +26,8 @@ export function StickyPlayer() {
     );
   }
   return (
-    <aside id="sticky-player" className="sticky-radio" aria-label="Player da Rádio Sinta">
-      <div className="radio-container sticky-radio-inner">
+    <aside id="hero-player" className="hero-player" aria-label="Player da Rádio Sinta">
+      <div className="hero-player-inner">
         <CoverArt src={nowPlaying?.cover ?? nowPlaying?.coverXl ?? null} />
         <div className="sticky-track">
           <span className="sticky-live">
@@ -43,13 +43,7 @@ export function StickyPlayer() {
               ? "Conectando…"
               : ""}
         </p>
-        <button
-          className="player-toggle"
-          aria-label={state === "playing" ? "Pausar transmissão" : "Reproduzir transmissão"}
-          onClick={toggle}
-        >
-          <Icon size={21} className={state === "loading" ? "animate-spin" : ""} />
-        </button>
+        <PlaybackButton />
         <button
           className="mobile-volume-toggle"
           aria-label="Ajustar volume"

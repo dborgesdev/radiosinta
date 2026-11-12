@@ -12,7 +12,7 @@ import { useEffect, type ReactNode } from "react";
 import appCss from "../styles.css?url";
 import { reportError } from "../lib/error-reporting";
 import { RadioProvider } from "../components/RadioProvider";
-import { StickyPlayer } from "../components/StickyPlayer";
+import { ListenLink } from "../components/ListenLink";
 import { MotionConfig } from "framer-motion";
 
 function NotFoundComponent() {
@@ -170,7 +170,7 @@ function RootComponent() {
       <MotionConfig reducedMotion="user">
         <RadioProvider>
           <Outlet />
-          <StickyPlayer />
+          <ListenLink />
         </RadioProvider>
       </MotionConfig>
     </QueryClientProvider>
