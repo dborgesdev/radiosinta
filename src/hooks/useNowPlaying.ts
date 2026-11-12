@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
-import { useQuery } from "@tanstack/react-query";
-import type { RadioNowPlaying, ServiceResult } from "@/lib/radio/types";
+import { useQuery, useQueryClient } from "@tanstack/react-query";
+import type { ServiceResult } from "@/lib/radio/types";
+import { metadataSource, METADATA_QUERY_KEY, nowPlayingOptions } from "@/lib/radio/metadata";
 
 export function useVisible() {
   const [visible, setVisible] = useState(false);
@@ -21,15 +22,10 @@ export async function readService<T>(path: string, signal: AbortSignal): Promise
 }
 export function useNowPlaying() {
   const visible = useVisible();
-  return useQuery({
-    queryKey: ["radio", "nowplaying"],
-    queryFn: ({ signal }) => readService<RadioNowPlaying>("/api/nowplaying", signal),
-    enabled: visible,
-    staleTime: 15_000,
-    gcTime: 3_600_000,
-    refetchInterval: visible ? 15_000 : false,
-    refetchIntervalInBackground: false,
-    refetchOnWindowFocus: true,
-    retry: false,
-  });
+  const client = useQueryClient();
+  const source = metadataSource(import.meta.env.VITE_RADIO_METADATA_SOURCE);
+  useEffect(() => {
+    if (!visible) void client.cancelQueries({ queryKey: METADATA_QUERY_KEY });
+  }, [visible, client]);
+  return useQuery(nowPlayingOptions(source, visible));
 }

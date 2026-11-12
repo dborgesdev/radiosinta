@@ -1,5 +1,5 @@
 import type { NewsItem } from "./types.ts";
-import { newsImageUrl } from "./parser.ts";
+import { newsImageUrl } from "./normalize.ts";
 import { safeUrl } from "../radio/normalize.ts";
 import { feedSources } from "./sources.ts";
 
@@ -44,5 +44,4 @@ export async function completeGospelImages(
     return items;
   } // RSS stays usable if the optional REST API fails.
 }
-export const gospelHighlights = (items: NewsItem[]) =>
-  items.filter((item) => item.image).slice(0, 4);
+export { gospelHighlights } from "./normalize.ts";
