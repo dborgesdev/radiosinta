@@ -3,7 +3,7 @@
   "name": "radiosinta",
   "compatibility_date": "2026-07-01",
   "compatibility_flags": ["nodejs_compat"],
-  "main": "dist/server/server.js",
+  "main": "dist/server/index.mjs",
   "assets": {
     "directory": "dist/client",
   },
