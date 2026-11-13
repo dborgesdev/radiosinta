@@ -55,36 +55,51 @@
   letter-spacing: -0.045em;
   line-height: 0.9;
 }
+.hero-radio-word,
+.hero-sinta-word {
+  position: relative;
+  isolation: isolate;
+  width: fit-content;
+  filter: drop-shadow(0 0.025em 0 #090b12);
+}
+.hero-radio-word > span,
+.hero-sinta-word > span {
+  display: block;
+  padding-block: 0.1em 0.04em;
+  background-clip: text;
+  color: transparent;
+}
+.hero-radio-word::before,
+.hero-sinta-word::before {
+  content: attr(data-word);
+  position: absolute;
+  inset: 0;
+  padding-block: 0.1em 0.04em;
+  color: #090b12;
+  -webkit-text-stroke: 0.045em #090b12;
+  z-index: -1;
+}
 .hero-radio-word {
   display: block;
-  color: #f6fcff;
-  text-shadow:
-    0 4px 0 #007eaa,
-    0 8px 30px #00b9ff25;
+}
+.hero-radio-word > span {
+  /* Cyan and deep blue from the official logo's upper word. */
+  background-image: linear-gradient(180deg, #09c5d9 15%, #079dc7 48%, #2550a5 90%);
 }
 .hero-sinta-line {
   display: block;
   white-space: nowrap;
-  padding-bottom: 0.08em;
+  margin-top: -0.14em;
 }
 .hero-sinta-word {
-  background: linear-gradient(
-    115deg,
-    #54e5ff 4%,
-    #00b7ff 23%,
-    #6a81ff 43%,
-    #9770ed 58%,
-    #ffd34c 79%,
-    #ff981c 98%
-  );
-  background-clip: text;
-  color: transparent;
+  display: inline-block;
 }
-.hero-period {
-  color: #ffad24;
+.hero-sinta-word > span {
+  /* Yellow to orange from the official logo's lower word. */
+  background-image: linear-gradient(180deg, #ffed36 15%, #ffcf08 50%, #ff8b0a 92%);
 }
 .hero-slogan {
-  margin-top: 28px;
+  margin-top: 18px;
   font-family: var(--font-display);
   font-size: clamp(23px, 2vw, 29px);
   font-weight: 600;
@@ -1530,11 +1545,11 @@ section[id] {
   }
   .hero-radio-word,
   .hero-sinta-line {
-    display: inline;
+    display: block;
   }
   .hero-slogan {
     font-size: 20px;
-    margin-top: 12px;
+    margin-top: 8px;
   }
   .hero-actions {
     flex-direction: row;

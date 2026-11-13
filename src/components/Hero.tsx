@@ -13,11 +13,14 @@ export function Hero() {
           <p className="radio-eyebrow">
             <span className="live-dot" /> AO VIVO · 24/7
           </p>
-          <h1>
-            <span className="hero-radio-word">Rádio</span>{" "}
+          <h1 aria-label="Rádio Sinta">
+            <span className="hero-radio-word" data-word="Rádio">
+              <span>Rádio</span>
+            </span>{" "}
             <span className="hero-sinta-line">
-              <span className="hero-sinta-word">Sinta</span>
-              <span className="hero-period">.</span>
+              <span className="hero-sinta-word" data-word="Sinta">
+                <span>Sinta</span>
+              </span>
             </span>
           </h1>
           <p className="hero-slogan">{cfg.slogan}</p>
