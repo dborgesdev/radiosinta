@@ -32,7 +32,7 @@ export function Sintonize() {
             <Wifi className="h-3.5 w-3.5" /> Streaming Otimizado
           </div>
           <h2 className="font-display text-4xl font-bold leading-tight sm:text-5xl text-white">
-            <span className="text-gradient-brand">Sinta a Presença de Deus</span> Onde Você For
+            <span className="text-gradient-brand">Sinta a Presença de Deus</span>
           </h2>
           <p className="mt-6 text-lg text-white/70">
             Tenha a Rádio Sinta sempre à mão. Instale nosso aplicativo oficial no seu dispositivo
