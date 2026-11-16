@@ -1,1465 +1,1465 @@
 // Bíblia Livre · CC BY 3.0 BR · Diego Santos, Mario Sérgio e Marco Teles.
-// Source commit a315a15e9f4d01883b62206fe441d57762f126b3 · textos/f4/geral/sal.txt
-// Whitespace normalized; editorial footnotes omitted; wording unchanged.
+// Source commit a315a15e9f4d01883b62206fe441d57762f126b3 · textos/f4/geral/*.txt
+// Selection/source hashes: scripts/daily-verses.selection.json. Publisher formatting/notes omitted; wording unchanged.
 export const dailyVerses = [
   {
     reference: "Salmos 1:1",
     text: "Bem-aventurado é o homem que não anda no conselho dos maus, nem para no caminho dos pecadores, nem se assenta na companhia dos escarnecedores;",
   },
   {
-    reference: "Salmos 8:1",
-    text: "Ah DEUS, nosso Senhor, quão excelente é teu nome sobre toda a terra! Tu puseste tua majestade acima dos céus.",
+    reference: "Provérbios 1:7",
+    text: "O temor ao SENHOR é o principio do conhecimento; os tolos desprezam a sabedoria e a instrução.",
+  },
+  {
+    reference: "João 1:4",
+    text: "Nela estava a vida, e a vida era a luz dos seres humanos.",
+  },
+  {
+    reference: "Mateus 5:3",
+    text: "“Bem-aventurados os humildes de espírito, porque deles é o Reino dos céus.",
+  },
+  {
+    reference: "Isaías 12:2",
+    text: "Eis que Deus é minha salvação; nele confiarei, e não terei medo; porque minha força e minha canção é o SENHOR DEUS; e ele tem sido minha salvação.",
+  },
+  {
+    reference: "Romanos 12:9",
+    text: "O amor seja sem hipocrisia. Odiai o mal, e apegai-vos ao bem.",
+  },
+  {
+    reference: "1 Coríntios 1:9",
+    text: "Fiel é Deus, por quem fostes chamados para a comunhão do seu Filho Jesus Cristo, nosso Senhor.",
+  },
+  {
+    reference: "Lucas 1:37",
+    text: "Pois, para Deus, nenhuma palavra será impossível”.",
+  },
+  {
+    reference: "Deuteronômio 4:7",
+    text: "Porque que gente grande há que tenha os deuses próximo a si, como o está o SENHOR nosso Deus em tudo quanto lhe pedimos?",
+  },
+  {
+    reference: "2 Coríntios 1:3",
+    text: "Bendito seja o Deus e Pai de nosso Senhor Jesus Cristo, o Pai das misericórdias, e o Deus de toda consolação,",
+  },
+  {
+    reference: "Filipenses 1:3",
+    text: "Agradeço ao meu Deus todas as vezes que me lembro de vós,",
+  },
+  {
+    reference: "Efésios 1:3",
+    text: "Bendito seja o Deus e Pai do nosso Senhor Jesus Cristo, que nos abençoou com todas as bênçãos espirituais nos lugares celestiais em Cristo;",
+  },
+  {
+    reference: "Hebreus 4:12",
+    text: "Porque a palavra de Deus é viva e eficaz, e mais afiada do que toda espada de dois gumes, e que penetra até a divisão da alma e do espírito, das juntas e das medulas, e é apta para julgar os pensamentos e intenções do coração.",
+  },
+  {
+    reference: "Tiago 1:2",
+    text: "Meus irmãos, tende toda alegria quando vos encontrardes em várias provações,",
+  },
+  {
+    reference: "Jeremias 1:8",
+    text: "Não temas diante deles, porque estou contigo para te livrar, diz o SENHOR.",
+  },
+  {
+    reference: "Eclesiastes 3:1",
+    text: "Para todas as coisas há um tempo determinado, e todo propósito abaixo do céu tem o seu tempo.",
+  },
+  {
+    reference: "Josué 1:5",
+    text: "Ninguém poderá resistir a ti em todos os dias de tua vida: como eu fui com Moisés, serei contigo; não te deixarei, nem te desampararei.",
+  },
+  {
+    reference: "Salmos 4:8",
+    text: "Em paz me deito e durmo; porque só tu, SENHOR, me fazes habitar seguro.",
+  },
+  {
+    reference: "Provérbios 2:6",
+    text: "Porque o SENHOR dá sabedoria; de sua boca vem o conhecimento e o entendimento.",
+  },
+  {
+    reference: "João 1:5",
+    text: "E a luz brilha nas trevas; e as trevas não a compreenderam.",
+  },
+  {
+    reference: "Apocalipse 1:3",
+    text: "Bem-aventurado é aquele que lê, e também os que ouvem as palavras desta profecia, e guardam as coisas nela escritas; porque o tempo está próximo.",
+  },
+  {
+    reference: "Mateus 5:4",
+    text: "Bem-aventurados os que choram, porque eles serão consolados.",
+  },
+  {
+    reference: "Isaías 12:3",
+    text: "E alegremente tirareis águas das fontes da salvação.",
+  },
+  {
+    reference: "Romanos 5:11",
+    text: "E não somente isso, mas também nos alegramos em Deus por meio do nosso Senhor Jesus Cristo, por quem agora recebemos a reconciliação.",
+  },
+  {
+    reference: "1 Coríntios 1:18",
+    text: "Porque a palavra da cruz é loucura para os que perecem; mas para os que se salvam é poder de Deus.",
+  },
+  {
+    reference: "Lucas 1:45",
+    text: "E bem-aventurada é a que creu, pois as coisas que da parte do Senhor lhe foram ditas se cumprirão”.",
+  },
+  {
+    reference: "Salmos 5:3",
+    text: "SENHOR, pela manhã ouves minha voz; pela manhã me apresento a ti, e fico vigiando.",
+  },
+  {
+    reference: "Provérbios 3:3",
+    text: "Que a bondade e a fidelidade não te desamparem; amarra-as junto ao teu pescoço; escreve-as na tábua de teu coração.",
+  },
+  {
+    reference: "João 1:12",
+    text: "Mas a todos quantos o receberam, deu-lhes poder de serem feitos filhos de Deus: aos que creem no seu nome;",
+  },
+  {
+    reference: "Deuteronômio 4:29",
+    text: "Mas se desde ali buscares ao SENHOR teu Deus, o acharás, se o buscares de todo teu coração e de toda tua alma.",
+  },
+  {
+    reference: "2 Coríntios 1:4",
+    text: "Que nos consola em toda aflição nossa, para que também possamos consolar aos que estiverem em alguma aflição, com a consolação com que nós mesmos por Deus somos consolados.",
+  },
+  {
+    reference: "Filipenses 1:9",
+    text: "E isto oro: que o vosso amor seja mais e mais abundante em conhecimento e em toda percepção,",
+  },
+  {
+    reference: "Efésios 1:7",
+    text: "Nele temos a libertação pelo seu sangue, o perdão dos pecados, conforme as riquezas da sua graça,",
+  },
+  {
+    reference: "Hebreus 4:14",
+    text: "Visto que temos um grande Sumo Sacerdote, Jesus, o Filho de Deus, que penetrou nos céus, mantenhamos firme a nossa declaração de fé.",
+  },
+  {
+    reference: "Tiago 1:3",
+    text: "sabendo que a prova da vossa fé produz perseverança.",
+  },
+  {
+    reference: "Mateus 5:5",
+    text: "Bem-aventurados os mansos, porque eles herdarão a terra.",
+  },
+  {
+    reference: "Isaías 25:1",
+    text: "Ó SENHOR, tu és meu Deus; eu te exaltarei, e louvarei o teu nome, pois tu tens feito maravilhas, teus conselhos antigos, com fidelidade e verdade.",
+  },
+  {
+    reference: "Romanos 5:2",
+    text: "Por meio dele também temos acesso pela fé a esta graça, na qual estamos firmes, e nos alegramos na esperança da glória de Deus.",
+  },
+  {
+    reference: "Jeremias 9:24",
+    text: "Mas aquele que se orgulhar, orgulhe-se nisto: em me entender e me conhecer, que eu sou o SENHOR, que faço bondade, juízo, e justiça na terra; porque destas coisas eu me agrado, diz o SENHOR.",
+  },
+  {
+    reference: "Eclesiastes 3:11",
+    text: "Tudo ele fez belo ao seu tempo; também pôs a sensação de eternidade no coração deles, sem que o ser humano consiga entender a obra que Deus fez, desde o princípio até o fim.",
+  },
+  {
+    reference: "1 Coríntios 1:25",
+    text: "Porque a loucura de Deus é mais sábia que os seres humanos; e a fraqueza de Deus é mais forte que os seres humanos.",
+  },
+  {
+    reference: "Salmos 9:1",
+    text: "Louvarei ao SENHOR com todo o meu coração; contarei todas as tuas maravilhas.",
+  },
+  {
+    reference: "Provérbios 3:5",
+    text: "Confia no SENHOR com todo o teu coração, e não te apoies no teu próprio entendimento.",
+  },
+  {
+    reference: "João 1:14",
+    text: "E aquele que é a Palavra se fez carne, e habitou entre nós (e vimos sua glória, como glória do unigênito do Pai), cheio de graça e de verdade.",
+  },
+  {
+    reference: "Lucas 2:10",
+    text: "E o anjo lhes disse: “Não temais; pois eis que vos dou notícias de grande alegria, que será para todo o povo:",
+  },
+  {
+    reference: "Josué 1:6",
+    text: "Esforça-te e sê valente: porque tu repartirás a este povo por herança a terra, da qual jurei a seus pais que a daria a eles.",
+  },
+  {
+    reference: "Deuteronômio 4:31",
+    text: "Porque Deus misericordioso é o SENHOR teu Deus; não te deixará, nem te destruirá, nem se esquecerá do pacto de teus pais que lhes jurou.",
+  },
+  {
+    reference: "2 Coríntios 1:5",
+    text: "Porque assim como os sofrimentos de Cristo são abundantes em nós, assim também por Cristo é abundante nossa consolação.",
+  },
+  {
+    reference: "Filipenses 1:10",
+    text: "para que aproveis as melhores coisas, a fim de que sejais sinceros, sem ofensa, até o dia de Cristo;",
+  },
+  {
+    reference: "Efésios 1:17",
+    text: "Oro para que o Deus de nosso Senhor Jesus Cristo, o Pai glorioso, vos dê o Espírito de sabedoria e de revelação no conhecimento dele;",
+  },
+  {
+    reference: "Hebreus 4:15",
+    text: "Pois não temos um Sumo Sacerdote que não possa se compadecer das nossas fraquezas; mas, sim, um que foi provado em tudo, conforme a nossa semelhança, porém sem pecado.",
+  },
+  {
+    reference: "Mateus 5:6",
+    text: "Bem-aventurados os que têm fome e sede de justiça, porque eles serão saciados.",
+  },
+  {
+    reference: "Isaías 26:3",
+    text: "Tu guardarás em completa paz aquele que tem firme entendimento, pois ele confia em ti.",
+  },
+  {
+    reference: "Romanos 5:3",
+    text: "E não somente isso, mas também nos alegramos nas tribulações, sabendo que a tribulação produz paciência;",
+  },
+  {
+    reference: "Salmos 16:8",
+    text: "Ponho o SENHOR continuamente diante de mim; porque ele está à minha direita, não serei abalado.",
+  },
+  {
+    reference: "Provérbios 3:6",
+    text: "Reconhece-o em todos os teus caminhos, e ele endireitará as tuas veredas.",
+  },
+  {
+    reference: "João 3:16",
+    text: "Porque Deus amou o mundo de tal maneira, que deu o seu Filho unigênito, para que todo aquele que nele crê não pereça, mas tenha a vida eterna.",
+  },
+  {
+    reference: "Apocalipse 3:20",
+    text: "Eis que eu estou à porta, e bato; se alguém ouvir a minha voz, e abrir a porta, entrarei até ele, e cearei com ele, e ele comigo.",
+  },
+  {
+    reference: "Tiago 1:4",
+    text: "E que a perseverança tenha uma realização completa, para que sejais completos e íntegros, sem faltar em coisa alguma.",
+  },
+  {
+    reference: "1 Coríntios 2:5",
+    text: "para que a vossa fé não fosse em sabedoria humana, mas sim, no poder de Deus.",
+  },
+  {
+    reference: "Jeremias 15:16",
+    text: "Achando-se tuas palavras, logo eu as comi; e tua palavra me foi por prazer e por alegria a meu coração; pois me chamo pelo teu nome, ó SENHOR Deus dos exércitos.",
+  },
+  {
+    reference: "Eclesiastes 3:12",
+    text: "Tenho percebido que não há coisa melhor para eles do que se alegrar e fazer o bem em suas vidas;",
+  },
+  {
+    reference: "Lucas 2:11",
+    text: "que hoje, na cidade de Davi, vos nasceu o Salvador, que é Cristo, o Senhor.",
+  },
+  {
+    reference: "Mateus 5:7",
+    text: "Bem-aventurados os misericordiosos, porque eles alcançarão misericórdia.",
+  },
+  {
+    reference: "Isaías 26:4",
+    text: "Confiai no SENHOR para sempre, pois no SENHOR DEUS está a rocha eterna.",
+  },
+  {
+    reference: "Romanos 5:4",
+    text: "a paciência produz experiência, e a experiência produz esperança.",
+  },
+  {
+    reference: "Salmos 18:2",
+    text: "O SENHOR é minha rocha, minha fortaleza, e meu libertador; meu Deus, meu rochedo, em quem confio; meu escudo, a força de minha salvação, meu alto refúgio.",
+  },
+  {
+    reference: "Provérbios 3:7",
+    text: "Não sejas sábio aos teus próprios olhos; teme ao SENHOR, e afasta-te do mal.",
+  },
+  {
+    reference: "João 3:17",
+    text: "Porque Deus enviou seu Filho ao mundo, não para que condenasse o mundo; mas sim, para que o mundo fosse salvo por ele.",
+  },
+  {
+    reference: "Deuteronômio 6:5",
+    text: "E amarás ao SENHOR, teu Deus, com todo o teu coração, com toda a tua alma, e com todo o teu poder.",
+  },
+  {
+    reference: "2 Coríntios 1:20",
+    text: "Porque todas as promessas nele são “sim”, e nele se diga Amém, para glória de Deus por meio de nós.",
+  },
+  {
+    reference: "Filipenses 1:21",
+    text: "Pois, para mim, o viver é Cristo, e o morrer é lucro.",
+  },
+  {
+    reference: "Efésios 2:4",
+    text: "Mas Deus, que é rico em misericórdia, pelo seu muito amor com que nos amou,",
+  },
+  {
+    reference: "Hebreus 4:16",
+    text: "Portanto, acheguemo-nos com confiança ao trono da graça, para que possamos receber misericórdia e encontrar graça para sermos socorridos no tempo adequado.",
+  },
+  {
+    reference: "1 Coríntios 2:10",
+    text: "Mas Deus as revelou para nós pelo seu Espírito. Porque o Espírito investiga todas as coisas, até as profundezas de Deus.",
+  },
+  {
+    reference: "Josué 1:7",
+    text: "Somente te esforces, e sejas muito valente, para cuidar de fazer conforme toda a lei que meu servo Moisés te mandou: não te apartes dela nem à direita nem à esquerda, para que sejas próspero em todas as coisas que empreenderes.",
   },
   {
     reference: "Salmos 19:1",
     text: "Os céus declaram a glória de Deus; e o firmamento anuncia a obra de suas mãos.",
   },
   {
+    reference: "Provérbios 3:9",
+    text: "Honra ao SENHOR com teus bens, e com a primeira parte de toda a tua renda.",
+  },
+  {
+    reference: "João 4:14",
+    text: "porém aquele que beber da água que eu lhe der, nunca mais terá sede, mas a água que eu lhe der se tornará nele uma fonte de água, jorrando para a vida eterna”.",
+  },
+  {
+    reference: "Tiago 1:5",
+    text: "Se algum de vós tem falta de sabedoria, peça a Deus, que concede generosamente a todos sem repreender, e lhe será dada.",
+  },
+  {
+    reference: "Mateus 5:8",
+    text: "Bem-aventurados os limpos de coração, porque eles verão a Deus.",
+  },
+  {
+    reference: "Isaías 30:15",
+    text: "Pois assim diz o Senhor DEUS, o Santo de Israel: Com arrependimento e descanso, ficaríeis livres; com calma e confiança teríeis força; mas vós não quisestes.",
+  },
+  {
+    reference: "Romanos 5:5",
+    text: "E a esperança não frustra, porque o amor de Deus está derramado em nossos corações pelo Espírito Santo que nos foi dado.",
+  },
+  {
+    reference: "Lucas 6:27",
+    text: "Mas a vós, que estais ouvindo, digo: amai vossos inimigos, fazei o bem aos que vos odeiam,",
+  },
+  {
+    reference: "Jeremias 17:7",
+    text: "Bendito o homem que confia no SENHOR, cuja confiança é o SENHOR;",
+  },
+  {
+    reference: "Eclesiastes 3:13",
+    text: "E também que todo ser humano coma, beba e desfrute de todo o seu trabalho; isto é um presente de Deus.",
+  },
+  {
     reference: "Salmos 23:1",
     text: "O SENHOR é meu pastor, nada me faltará.",
   },
   {
-    reference: "Salmos 27:1",
-    text: "O SENHOR é minha luz e minha salvação; a quem temerei? O SENHOR é a força da minha vida; de quem terei medo?",
+    reference: "Provérbios 3:24",
+    text: "Quando te deitares, não terás medo; tu deitarás, e teu sono será suave.",
   },
   {
-    reference: "Salmos 34:1",
-    text: "Louvarei ao SENHOR em todo tempo; continuamente seu louvor estará em minha boca.",
+    reference: "João 4:24",
+    text: "Deus é Espírito, e seus adoradores devem adorá-lo em espírito e em verdade”.",
   },
   {
-    reference: "Salmos 37:1",
-    text: "Não te irrites por causa dos malfeitores, nem tenhas inveja dos que praticam perversidade.",
+    reference: "1 Coríntios 3:16",
+    text: "Não sabeis vós, que sois o templo de Deus? E que o Espírito de Deus habita em vós?",
   },
   {
-    reference: "Salmos 46:1",
-    text: "Deus é nosso refúgio e fortaleza, um socorro bem presente na angústia.",
+    reference: "Deuteronômio 6:6",
+    text: "E estas palavras, que hoje te mando, estarão no teu coração;",
   },
   {
-    reference: "Salmos 63:1",
-    text: "Ó Deus, tu és meu Deus. Eu te busco ansiosamente; minha alma tem sede de ti, minha carne te deseja muito, numa terra seca e exausta, sem água.",
+    reference: "2 Coríntios 3:5",
+    text: "Não que sejamos capazes de pensar alguma coisa de nós como se fosse de nós mesmos, mas nossa capacidade é de Deus;",
   },
   {
-    reference: "Salmos 84:1",
-    text: "Como são agradáveis tuas moradas, SENHOR dos exércitos!",
+    reference: "Filipenses 4:9",
+    text: "O que também aprendestes, recebestes, ouvistes, e vistes em mim, isso fazei; e o Deus da paz será convosco.",
   },
   {
-    reference: "Salmos 91:1",
-    text: "Aquele que habita no esconderijo do Altíssimo descansa à sombra do Todo-Poderoso.",
+    reference: "Efésios 2:8",
+    text: "Porque pela graça sois salvos, por meio da fé; e isto não vem de vós; é dom de Deus;",
   },
   {
-    reference: "Salmos 95:1",
-    text: "Vinde, cantemos ao SENHOR; jubilemos à rocha da nossa salvação.",
+    reference: "Hebreus 6:11",
+    text: "Mas desejamos que cada um de vós mostre o mesmo empenho até o fim, para que a vossa esperança seja completa;",
   },
   {
-    reference: "Salmos 96:1",
-    text: "Cantai ao SENHOR um cântico novo; cantai ao SENHOR toda a terra.",
+    reference: "Apocalipse 7:17",
+    text: "Porque o Cordeiro, que está no meio do trono, os apascentará, e os guiará até fontes vivas de águas; e Deus limpará toda lágrima dos seus olhos.”",
   },
   {
-    reference: "Salmos 98:1",
-    text: "Cantai ao SENHOR um cântico novo, porque ele fez maravilhas; sua mão direita e seu santo braço lhe alcançaram a salvação.",
+    reference: "Mateus 5:9",
+    text: "Bem-aventurados os pacificadores, porque eles serão chamados filhos de Deus.",
   },
   {
-    reference: "Salmos 100:1",
-    text: "Jubilai ao SENHOR, toda a terra!",
+    reference: "Isaías 30:18",
+    text: "Por isso o SENHOR esperará para ter piedade de vós; e por isso ele se exaltará, para se compadecer de vós; pois o SENHOR é Deus de juízo; bem-aventurados todos os que nele esperam.",
   },
   {
-    reference: "Salmos 103:2",
-    text: "Bendize ao SENHOR, ó minha alma; e não te esqueças de nenhum de seus benefícios.",
+    reference: "Romanos 5:8",
+    text: "Mas Deus prova o seu amor por nós através de Cristo haver morrido por nós, quando ainda éramos pecadores.",
   },
   {
-    reference: "Salmos 104:1",
-    text: "Bendize, ó minha alma, ao SENHOR; ó SENHOR meu Deus, tu és muito grandioso; estás vestido de glória e de majestade.",
+    reference: "Lucas 6:31",
+    text: "E como vós quereis que as pessoas vos façam, também fazei-lhes vós da mesma maneira.",
   },
   {
-    reference: "Salmos 112:1",
-    text: "Aleluia! Bem-aventurado é o homem que teme ao SENHOR, que tem grande prazer em seus mandamentos.",
-  },
-  {
-    reference: "Salmos 116:1",
-    text: "Amo o SENHOR, porque ele escuta minha voz e minhas súplicas.",
-  },
-  {
-    reference: "Salmos 117:1",
-    text: "Louvai ao SENHOR, todas as nações; celebrai a ele, todos os povos.",
-  },
-  {
-    reference: "Salmos 118:6",
-    text: "O SENHOR está comigo, não temerei; o que o ser humano me poderá fazer?",
-  },
-  {
-    reference: "Salmos 121:1",
-    text: "Levanto meus olhos aos montes. De onde virá meu socorro?",
-  },
-  {
-    reference: "Salmos 125:2",
-    text: "Como os montes ao redor de Jerusalém, assim o SENHOR está ao redor de seu povo, desde agora para sempre.",
-  },
-  {
-    reference: "Salmos 126:1",
-    text: "Quando o SENHOR restaurou o destino de Sião, estávamos como os que sonham.",
-  },
-  {
-    reference: "Salmos 127:1",
-    text: "Se o SENHOR não edificar a casa, trabalham nela em vão seus construtores; se o SENHOR não guardar a cidade, o guarda vigia em vão.",
-  },
-  {
-    reference: "Salmos 128:1",
-    text: "Bem-aventurado todo aquele que teme o SENHOR, e anda em seus caminhos.",
-  },
-  {
-    reference: "Salmos 130:1",
-    text: "Das profundezas clamo a ti, SENHOR.",
-  },
-  {
-    reference: "Salmos 131:1",
-    text: "SENHOR, meu coração não se exalta, nem meus olhos são elevados; não me ocupo com coisas grandiosas, nem com coisas maravilhosas demais para mim.",
-  },
-  {
-    reference: "Salmos 133:1",
-    text: "Vede como é bom e agradável que os irmãos vivam em união!",
-  },
-  {
-    reference: "Salmos 136:1",
-    text: "Dai graças ao SENHOR, porque ele é bom, porque seu leal amor é para sempre.",
-  },
-  {
-    reference: "Salmos 138:1",
-    text: "Eu te darei graças de todo o meu coração; na presença dos seres divinos cantarei louvores a ti.",
-  },
-  {
-    reference: "Salmos 139:1",
-    text: "SENHOR, tu me examinas e me conheces.",
-  },
-  {
-    reference: "Salmos 145:2",
-    text: "Todos os dias eu te bendirei, e louvarei teu nome para todo o sempre.",
-  },
-  {
-    reference: "Salmos 146:1",
-    text: "Aleluia! Louve ao SENHOR, ó minha alma!",
-  },
-  {
-    reference: "Salmos 147:1",
-    text: "Aleluia! Pois é bom cantar louvores ao nosso Deus, porque é agradável; e apropriado é o louvor.",
-  },
-  {
-    reference: "Salmos 148:1",
-    text: "Aleluia! Louvai ao SENHOR desde os céus; louvai-o nas alturas.",
-  },
-  {
-    reference: "Salmos 149:1",
-    text: "Aleluia! Cantai ao SENHOR um cântico novo; um louvor a ele na assembleia dos santos.",
-  },
-  {
-    reference: "Salmos 150:1",
-    text: "Aleluia! Louvai a Deus em seu santuário; louvai-o no firmamento de seu poder.",
-  },
-  {
-    reference: "Salmos 1:2",
-    text: "antes, tem seu prazer na Lei do SENHOR; e em sua Lei medita de dia e de noite.",
-  },
-  {
-    reference: "Salmos 8:2",
-    text: "Da boca das crianças e dos que mamam estabeleceste força, por causa de teus adversários, para fazer calar o inimigo e o vingador.",
-  },
-  {
-    reference: "Salmos 19:2",
-    text: "Um dia declara ao outro dia; e uma noite mostra sabedoria à outra noite.",
-  },
-  {
-    reference: "Salmos 23:2",
-    text: "Ele me faz deitar em verdes pastos, e leva-me a águas tranquilas.",
-  },
-  {
-    reference: "Salmos 27:2",
-    text: "Quando os maus vieram contra mim, para devorarem minha carne, foram eles, meus adversários e meus inimigos, que tropeçaram e caíram.",
-  },
-  {
-    reference: "Salmos 34:2",
-    text: "Minha alma se gloriará no SENHOR; os humildes ouvirão e se alegrarão.",
-  },
-  {
-    reference: "Salmos 37:2",
-    text: "Pois, como a relva, logo serão cortados; e murcharão como a erva verde.",
-  },
-  {
-    reference: "Salmos 46:2",
-    text: "Por isso não temeremos, ainda que a terra se mova, e ainda que os montes se transportem para o meio dos mares;",
-  },
-  {
-    reference: "Salmos 63:2",
-    text: "Assim eu te contemplava no santuário, para ver teu poder e tua glória.",
-  },
-  {
-    reference: "Salmos 84:2",
-    text: "Minha alma anseia, e se enfraquece, pelos pátios do SENHOR; meu coração e minha carne clamam pelo Deus vivo.",
-  },
-  {
-    reference: "Salmos 91:3",
-    text: "Porque ele te livrará da armadilha do caçador e da peste mortal.",
-  },
-  {
-    reference: "Salmos 95:2",
-    text: "Cheguemos perante sua presença com ações de graças; celebremos a ele com salmos.",
-  },
-  {
-    reference: "Salmos 96:2",
-    text: "Cantai ao SENHOR, bendizei o seu nome; anunciai a salvação dele dia após dia.",
-  },
-  {
-    reference: "Salmos 98:2",
-    text: "O SENHOR fez notória sua salvação, manifestou sua justiça perante os olhos das nações.",
-  },
-  {
-    reference: "Salmos 100:2",
-    text: "Servi vós ao SENHOR com alegria; vinde perante sua presença com cântico.",
-  },
-  {
-    reference: "Salmos 103:3",
-    text: "Ele é o que perdoa todas as tuas perversidades, e te sara de todas as tuas enfermidades;",
-  },
-  {
-    reference: "Salmos 104:2",
-    text: "Ele se cobre de luz como que uma vestimenta; ele estende os céus como uma cortina.",
-  },
-  {
-    reference: "Salmos 112:2",
-    text: "Sua descendência será poderosa na terra; a geração dos corretos será abençoada.",
-  },
-  {
-    reference: "Salmos 116:2",
-    text: "Porque ele inclinou a mim seus ouvidos; por isso o invocarei enquanto eu viver.",
-  },
-  {
-    reference: "Salmos 118:8",
-    text: "Melhor é buscar refúgio no SENHOR do que confiar no ser humano.",
-  },
-  {
-    reference: "Salmos 121:3",
-    text: "Ele não deixará o teu pé vacilar; teu guardião não cochilará.",
-  },
-  {
-    reference: "Salmos 125:3",
-    text: "Porque o cetro da maldade não permanecerá sobre a terra dos justos, para que os justos não estendam suas mãos à perversidade.",
-  },
-  {
-    reference: "Salmos 126:2",
-    text: "Então nossa boca se encheu de riso, e nossa língua de júbilo; então entre as nações se dizia: O SENHOR fez grandes coisas a eles.",
-  },
-  {
-    reference: "Salmos 127:3",
-    text: "Eis que os filhos são um presente da parte do SENHOR; o fruto do ventre é uma recompensa.",
-  },
-  {
-    reference: "Salmos 128:2",
-    text: "Pois tu comerás do trabalho de tuas mãos; serás bem-aventurado, e prosperarás.",
-  },
-  {
-    reference: "Salmos 130:2",
-    text: "Escuta, Senhor, a minha voz; sejam teus ouvidos atentos à voz de minhas súplicas.",
-  },
-  {
-    reference: "Salmos 131:2",
-    text: "Em vez disso, sossego e calo minha alma, como uma criança desmamada com sua mãe; como uma criança desmamada está minha alma comigo.",
-  },
-  {
-    reference: "Salmos 133:2",
-    text: "É como o óleo precioso sobre a cabeça, que desce sobre a barba, a barba de Arão, que desce sobre a bordas de suas vestes.",
-  },
-  {
-    reference: "Salmos 136:2",
-    text: "Dai graças ao Deus dos deuses, porque seu leal amor é para sempre.",
-  },
-  {
-    reference: "Salmos 138:2",
-    text: "Eu me prostrarei ao teu santo templo, e louvarei teu nome por tua leal bondade e por tua verdade; porque engrandeceste tua palavra acima de toda a tua fama.",
-  },
-  {
-    reference: "Salmos 139:2",
-    text: "Tu sabes meu assentar e meu levantar; de longe entendes meu pensamento.",
-  },
-  {
-    reference: "Salmos 145:3",
-    text: "O SENHOR é grande e muito digno de louvor; sua grandeza é incompreensível.",
-  },
-  {
-    reference: "Salmos 146:2",
-    text: "Louvarei ao SENHOR enquanto eu viver; cantarei louvores ao meu Deus enquanto eu existir.",
-  },
-  {
-    reference: "Salmos 147:2",
-    text: "O SENHOR edifica Jerusalém; reúne os exilados de Israel.",
-  },
-  {
-    reference: "Salmos 148:2",
-    text: "Louvai-o todos os seus anjos; louvai-o todos os seus exércitos.",
-  },
-  {
-    reference: "Salmos 149:2",
-    text: "Que Israel jubile no seu Criador, os filhos de Sião se alegrem no seu Rei.",
-  },
-  {
-    reference: "Salmos 150:2",
-    text: "Louvai-o por seus atos poderosos; louvai-o conforme a imensidão de sua grandeza.",
-  },
-  {
-    reference: "Salmos 1:3",
-    text: "Porque será como a árvore, plantada junto a ribeiros de águas, que dá fruto a seu tempo, e suas folhas não caem; e tudo quanto fizer prosperará.",
-  },
-  {
-    reference: "Salmos 8:3",
-    text: "Quando vejo teus céus, obra de teus dedos; a lua e as estrelas, que preparaste;",
-  },
-  {
-    reference: "Salmos 19:3",
-    text: "Não há uma língua, nem palavras, suas vozes não se ouvem.",
+    reference: "Tiago 5:13",
+    text: "Alguém entre vós está aflito? Ore. Alguém está contente? Cante louvores.",
   },
   {
     reference: "Salmos 23:3",
     text: "Ele restaura minha alma; guia-me pelas veredas de justiça por causa de seu nome.",
   },
   {
-    reference: "Salmos 27:3",
-    text: "Ainda que um exército se acampe contra mim, meu coração não temerá; ainda que uma guerra se levante contra mim, mesmo assim confiarei.",
+    reference: "Provérbios 4:7",
+    text: "O principal é a sabedoria; adquire sabedoria, e acima de tudo o que adquirires, adquire entendimento.",
   },
   {
-    reference: "Salmos 34:3",
-    text: "Engrandecei ao SENHOR comigo, e juntos exaltemos seu nome.",
+    reference: "João 6:35",
+    text: "E Jesus lhes disse: “Eu sou o pão da vida; quem vem a mim jamais terá fome, e quem crê em mim nunca terá sede.",
   },
   {
-    reference: "Salmos 37:3",
-    text: "Confia no SENHOR, e faze o bem; habita a terra, e alimenta-te da fidelidade.",
+    reference: "Josué 1:8",
+    text: "O livro desta lei nunca se apartará de tua boca: antes de dia e de noite meditarás nele, para que guardes e faças conforme tudo o que nele está escrito: porque então farás prosperar teu caminho, e tudo te sairá bem.",
   },
   {
-    reference: "Salmos 46:3",
-    text: "ainda que suas águas rujam e se perturbem, e os montes tremam pela braveza delas. (Selá)",
+    reference: "1 Coríntios 6:19",
+    text: "Ou não sabeis que vosso corpo é templo do Espírito Santo, o qual está em vós, o qual tendes de Deus, e que não sois de vós mesmos?",
   },
   {
-    reference: "Salmos 63:3",
-    text: "Porque tua leal bondade é melhor que a vida, meus lábios te louvarão.",
+    reference: "Mateus 5:14",
+    text: "Vós sois a luz do mundo; não se pode esconder uma cidade fundada sobre o monte.",
   },
   {
-    reference: "Salmos 84:4",
-    text: "Bem-aventurados os que habitam em tua casa; eles te louvarão continuamente. (Selá)",
+    reference: "Isaías 30:21",
+    text: "E quando virardes para a direita ou para a esquerda, teus ouvidos ouvirão a palavra do que está atrás de ti, dizendo: Este é o caminho; andai por ele.",
   },
   {
-    reference: "Salmos 91:4",
-    text: "Ele te cobrirá com suas penas, e debaixo de suas asas tu encontrarás refúgio; a verdade dele é escudo e couraça.",
+    reference: "Romanos 6:23",
+    text: "porque o salário do pecado é a morte, mas o dom gratuito de Deus é a vida eterna em Cristo Jesus nosso Senhor.",
   },
   {
-    reference: "Salmos 95:3",
-    text: "Porque o SENHOR é o grande Deus, e o grande Rei acima de todos os deuses.",
+    reference: "Jeremias 17:8",
+    text: "Porque ele será como a árvore plantada junto a águas, que estende suas raízes junto à corrente; não tem preocupação quando vier o calor, e sua folha permanece verde; e no ano de seca não se cansa, nem deixa de dar fruto.",
   },
   {
-    reference: "Salmos 96:3",
-    text: "Contai sua glória por entre as nações, suas maravilhas por entre todos os povos.",
+    reference: "Eclesiastes 3:14",
+    text: "Eu sei que tudo quanto Deus faz durará para sempre; a isso nada será acrescentado e nada será diminuído; e Deus faz assim para que haja temor perante sua presença.",
   },
   {
-    reference: "Salmos 98:3",
-    text: "Lembrou-se de sua leal bondade e de sua fidelidade para com a casa de Israel; todos os confins da terra viram a salvação do nosso Deus.",
+    reference: "Deuteronômio 6:7",
+    text: "e as repetirás aos teus filhos, e delas falarás estando na tua casa, e andando pelo caminho, quando deitares, e quando te levantares;",
   },
   {
-    reference: "Salmos 100:3",
-    text: "Sabei que o SENHOR é Deus; foi ele que nos fez, e a ele pertencemos; somos seu povo, e ovelhas do seu pasto.",
+    reference: "2 Coríntios 3:17",
+    text: "O Senhor é o Espírito; e onde está o Espírito do Senhor, aí há liberdade.",
   },
   {
-    reference: "Salmos 103:4",
-    text: "que resgata tua vida da destruição; que te coroa com leal bondade e misericórdia;",
+    reference: "Filipenses 2:4",
+    text: "Cada um seja atencioso, não somente com o que é seu; mas que cada um dê atenção também ao que é dos outros.",
   },
   {
-    reference: "Salmos 104:3",
-    text: "Ele põe nas águas as vigas de suas câmaras; ele faz das nuvens sua carruagem; ele anda sobre as asas do vento.",
+    reference: "Efésios 2:10",
+    text: "Pois nós fomos feitos por ele, criados em Cristo Jesus para as boas obras, que Deus preparou para que nelas andássemos.",
   },
   {
-    reference: "Salmos 112:3",
-    text: "Em sua casa há bens e riquezas, e sua justiça permanece para sempre.",
-  },
-  {
-    reference: "Salmos 116:3",
-    text: "Cordas da morte me cercaram, e angústias do Xeol me agarraram; encontrei aflição e tristeza.",
-  },
-  {
-    reference: "Salmos 118:9",
-    text: "Melhor é buscar refúgio no SENHOR do que confiar em príncipes.",
-  },
-  {
-    reference: "Salmos 121:4",
-    text: "Eis que não cochilará nem dormirá o Guardião de Israel.",
-  },
-  {
-    reference: "Salmos 125:4",
-    text: "Ó SENHOR, faze o bem aos bons, e aos corretos de coração.",
-  },
-  {
-    reference: "Salmos 126:4",
-    text: "Restaura nosso destino, SENHOR, como as correntes de águas no deserto do sul.",
-  },
-  {
-    reference: "Salmos 127:4",
-    text: "Como flechas na mão do guerreiro, assim são os filhos da juventude.",
-  },
-  {
-    reference: "Salmos 128:3",
-    text: "Tua esposa será como a videira frutífera, no interior de tua casa; teus filhos, como plantas de oliveira ao redor de tua mesa.",
-  },
-  {
-    reference: "Salmos 130:3",
-    text: "Se tu, SENHOR, guardasses registro das perversidades, quem poderia permanecer, Senhor?",
-  },
-  {
-    reference: "Salmos 136:3",
-    text: "Dai graças ao SENHOR dos senhores, porque seu leal amor é para sempre.",
-  },
-  {
-    reference: "Salmos 138:3",
-    text: "No dia em que clamei, tu me respondeste; encorajaste-me com força em minha alma.",
-  },
-  {
-    reference: "Salmos 139:3",
-    text: "Examinas meu andar e meu deitar; conheces todos os meus caminhos.",
-  },
-  {
-    reference: "Salmos 145:4",
-    text: "Cada geração louvará tuas obras para a outra geração, e anunciarão tuas proezas.",
-  },
-  {
-    reference: "Salmos 146:3",
-    text: "Não ponhais vossa confiança em príncipes; em filhos dos homens, que não podem salvar.",
-  },
-  {
-    reference: "Salmos 147:3",
-    text: "Ele sara os de quebrantados de coração, e põe curativo em suas feridas.",
-  },
-  {
-    reference: "Salmos 148:3",
-    text: "Louvai-o, sol e lua; louvai-o, todas as estrelas luminosas.",
-  },
-  {
-    reference: "Salmos 149:3",
-    text: "Louvai o nome dele com danças, cantai louvores a ele com tamborim e harpa.",
-  },
-  {
-    reference: "Salmos 150:3",
-    text: "Louvai-o com som de trombeta; louvai-o com lira e harpa.",
-  },
-  {
-    reference: "Salmos 1:4",
-    text: "Os maus não são assim; mas são como a palha que o vento dispersa.",
-  },
-  {
-    reference: "Salmos 8:4",
-    text: "que é o ser humano, para que te lembres dele? E um filho do homem, para que o visites?",
-  },
-  {
-    reference: "Salmos 19:4",
-    text: "Sua linha se estende por toda a terra, e suas palavras até os confins do mundo; neles pôs uma tenda para o sol;",
+    reference: "Hebreus 6:19",
+    text: "Temos essa esperança como uma segura e firme âncora da alma, que entra ao interior, além do véu,",
   },
   {
     reference: "Salmos 23:4",
     text: "Ainda que eu ande pelo vale da sombra da morte, não temerei mal algum, porque tu estás comigo; tua vara e teu cajado me confortam.",
   },
   {
-    reference: "Salmos 27:4",
-    text: "Uma coisa peço ao SENHOR, e a busco: que eu possa morar na casa do SENHOR todos os dias de minha vida, para contemplar a beleza do SENHOR, e meditar em seu templo.",
+    reference: "Provérbios 4:18",
+    text: "Mas o caminho dos justos é como a luz brilhante, que vai, e ilumina até o dia ficar claro por completo.",
+  },
+  {
+    reference: "João 6:37",
+    text: "Todo aquele que o Pai me dá virá a mim; e o que vem a mim, de maneira nenhuma o lançarei fora.",
+  },
+  {
+    reference: "Lucas 6:35",
+    text: "Em vez disso, amai vossos inimigos, fazei o bem, e emprestai, sem nada esperar disso; e grande será a vossa recompensa, e vós sereis filhos do Altíssimo; porque ele é bondoso até para com os ingratos e maus.",
+  },
+  {
+    reference: "Mateus 5:16",
+    text: "Assim brilhe vossa luz diante das pessoas, para que vejam vossas boas obras, e glorifiquem ao vosso Pai, que está nos céus.",
+  },
+  {
+    reference: "Isaías 32:17",
+    text: "E a consequência da justiça será paz; e o produto da justiça, repouso e segurança para sempre.",
+  },
+  {
+    reference: "Romanos 8:24",
+    text: "Pois fomos salvos na esperança. Ora, a esperança que se vê não é esperança; afinal, por que alguém ainda espera o que já vê?",
+  },
+  {
+    reference: "1 Coríntios 15:58",
+    text: "Portanto, meus amados irmãos, sede firmes, imóveis e sempre abundantes na obra do Senhor, sabendo que o vosso trabalho não é vão no Senhor.",
+  },
+  {
+    reference: "Tiago 1:17",
+    text: "Toda boa dádiva e todo dom perfeito vem do alto, e desce do Pai das luzes, em quem não há mudança nem sombra de variação.",
+  },
+  {
+    reference: "Salmos 27:1",
+    text: "O SENHOR é minha luz e minha salvação; a quem temerei? O SENHOR é a força da minha vida; de quem terei medo?",
+  },
+  {
+    reference: "Provérbios 4:23",
+    text: "Acima de tudo o que se deve guardar, guarda o teu coração; porque dele procedem as fontes da vida.",
+  },
+  {
+    reference: "João 6:40",
+    text: "E a vontade daquele que me enviou é esta: que todo aquele que vê o Filho, e nele crê, tenha a vida eterna; e eu o ressuscitarei no último dia”.",
+  },
+  {
+    reference: "Apocalipse 14:13",
+    text: "E eu ouvi uma voz do céu, que me dizia: Escreve: “Benditos são os mortos que morrem no Senhor a partir de agora; sim, diz o Espírito, para que se descansem de seus trabalhos; e suas obras os seguem.”",
+  },
+  {
+    reference: "Deuteronômio 7:9",
+    text: "Conhece, pois, que o SENHOR teu Deus é Deus, Deus fiel, que guarda o pacto e a misericórdia aos que lhe amam e guardam seus mandamentos, até as mil gerações;",
+  },
+  {
+    reference: "2 Coríntios 9:8",
+    text: "E Deus é poderoso para fazer abundar em vós toda graça, para que sempre tendo de tudo, em tudo suficientes, abundeis em toda boa obra.",
+  },
+  {
+    reference: "Filipenses 2:5",
+    text: "Haja, pois, em vós, este modo de pensar, que também houve em Cristo Jesus;",
+  },
+  {
+    reference: "Efésios 2:14",
+    text: "pois ele é a nossa paz. Dos dois povos ele fez um, e derrubou do meio o muro da separação.",
+  },
+  {
+    reference: "Hebreus 10:23",
+    text: "mantenhamos firme a esperança que declararmos ter, sem abalo algum, pois aquele que prometeu é fiel;",
+  },
+  {
+    reference: "Jeremias 17:10",
+    text: "Eu, o SENHOR, que examino o coração, e provo os sentimentos, para dar a cada um conforme seus caminhos, conforme o fruto de suas ações.",
+  },
+  {
+    reference: "Eclesiastes 4:6",
+    text: "É melhor uma mão cheia com descanso, do que ambas as mãos cheias com trabalho e perseguição ao vento.",
+  },
+  {
+    reference: "Lucas 6:28",
+    text: "bendizei os que vos amaldiçoam, e orai pelos que vos maltratam.",
+  },
+  {
+    reference: "Josué 1:9",
+    text: "Olha que te mando que te esforces e sejas valente: não temas nem desmaies, porque o SENHOR teu Deus será contigo onde quer que fores.",
+  },
+  {
+    reference: "Mateus 5:45",
+    text: "para que sejais filhos do vosso Pai que está nos céus; porque ele faz o seu sol sair sobre maus e bons, e chover sobre justos e injustos.",
+  },
+  {
+    reference: "Isaías 33:2",
+    text: "Ó SENHOR, tem misericórdia de nós! Em ti temos esperança. Que tu sejas nossa força nas madrugadas, e nossa salvação no tempo de aflição.",
+  },
+  {
+    reference: "Romanos 8:6",
+    text: "Pois a mentalidade da carne é morte, mas a mentalidade do Espírito é vida e paz.",
+  },
+  {
+    reference: "Salmos 27:14",
+    text: "Espera no SENHOR, encoraja-te, e que teu coração seja fortalecido; espera, pois, no SENHOR.",
+  },
+  {
+    reference: "Provérbios 8:17",
+    text: "Eu amo os que me amam; e os que me buscam intensamente me acharão.",
+  },
+  {
+    reference: "João 7:38",
+    text: "Quem crê em mim, como diz a Escritura, rios de água viva fluirão do seu interior”.",
+  },
+  {
+    reference: "1 Coríntios 10:13",
+    text: "Nenhuma tentação vos veio, que não fosse humana; porém Deus é fiel; que não vos deixará tentar mais do que o que podeis, antes com a tentação também dará a saída, para que a possais suportar.",
+  },
+  {
+    reference: "Tiago 1:21",
+    text: "Por isso, rejeitai toda impureza e abundância de malícia, e recebei com mansidão a palavra implantada em vós, a qual pode salvar as vossas almas;",
+  },
+  {
+    reference: "Salmos 28:7",
+    text: "O SENHOR é minha força e meu escudo; meu coração confia nele, e fui socorrido; por isso meu coração jubila; e com meu canto o louvarei.",
+  },
+  {
+    reference: "Provérbios 9:10",
+    text: "O temor ao SENHOR é o princípio da sabedoria; e o conhecimento dos santos é a prudência.",
+  },
+  {
+    reference: "João 8:12",
+    text: "Então Jesus falou-lhes outra vez, dizendo: “Eu sou a luz do mundo; quem me segue não andará em trevas, mas terá a luz da vida”.",
+  },
+  {
+    reference: "Deuteronômio 8:10",
+    text: "E comerás e te fartarás, e bendirás ao SENHOR teu Deus pela boa terra que te haverá dado.",
+  },
+  {
+    reference: "2 Coríntios 4:7",
+    text: "Porém temos este tesouro em vasos de barro, para que a excelência do poder seja de Deus, e não de nós.",
+  },
+  {
+    reference: "Filipenses 2:13",
+    text: "pois é Deus quem opera em vós tanto o querer como o agir, conforme a sua boa vontade.",
+  },
+  {
+    reference: "Efésios 2:19",
+    text: "Portanto, já não sois estrangeiros, nem forasteiros, mas sim, concidadãos dos santos, e membros da família de Deus,",
+  },
+  {
+    reference: "Hebreus 10:24",
+    text: "e sejamos atenciosos uns para com os outros, a fim de incentivar o amor e as boas obras;",
+  },
+  {
+    reference: "Mateus 6:8",
+    text: "Não sejais, pois, semelhantes a eles; porque vosso Pai sabe o que vós necessitais, antes de a ele pedirdes.",
+  },
+  {
+    reference: "Isaías 35:4",
+    text: "Dizei aos perturbados de coração: Fortalecei-vos! Não temais! Eis que nosso Deus virá para a vingança, aos pagamentos de Deus; ele virá e vos salvará.",
+  },
+  {
+    reference: "Romanos 8:14",
+    text: "Pois todos quantos são guiados pelo Espírito de Deus são filhos de Deus.",
+  },
+  {
+    reference: "Lucas 6:37",
+    text: "Não julgueis, e não sereis julgados; não condeneis, e não sereis condenados; perdoai, e vos perdoarão.",
+  },
+  {
+    reference: "1 Coríntios 10:24",
+    text: "Ninguém busque para si próprio, antes cada um busque o bem do outro.",
+  },
+  {
+    reference: "Jeremias 17:14",
+    text: "Sara-me, ó SENHOR, e serei sarado; salva-me, e serei salvo; pois tu és meu louvor.",
+  },
+  {
+    reference: "Eclesiastes 4:9",
+    text: "Dois são melhores do que um, porque eles têm melhor recompensa por seu trabalho.",
+  },
+  {
+    reference: "Salmos 30:5",
+    text: "Porque sua ira é por um momento; mas seu favor é para a vida; o choro pode durar uma noite, mas a alegria vem pela manhã.",
+  },
+  {
+    reference: "Provérbios 10:12",
+    text: "O ódio desperta brigas; mas o amor cobre todas as transgressões.",
+  },
+  {
+    reference: "João 8:31",
+    text: "Jesus dizia, pois, aos judeus que criam nele: “Se permanecerdes na minha palavra, verdadeiramente vós sereis meus discípulos.",
+  },
+  {
+    reference: "Apocalipse 19:9",
+    text: "E ele me disse: Escreve: “Benditos são aqueles que foram chamados para a ceia da festa de casamento do Cordeiro.” E ele me disse: “Estas são as verdadeiras palavras de Deus.”",
+  },
+  {
+    reference: "Josué 3:5",
+    text: "E Josué disse ao povo: Santificai-vos, porque o SENHOR fará amanhã entre vós maravilhas.",
+  },
+  {
+    reference: "Mateus 6:14",
+    text: "Porque se vós perdoardes às pessoas as ofensas delas, também vosso Pai celestial vos perdoará;",
+  },
+  {
+    reference: "Isaías 40:8",
+    text: "A erva se seca, as flores caem; porém a palavra do nosso Deus continua firme para sempre.",
+  },
+  {
+    reference: "Romanos 8:15",
+    text: "Pois não recebestes o espírito de escravidão, para voltardes ao medo; mas recebestes o Espírito de adoção como filhos, pelo qual clamamos: Aba, Pai!",
+  },
+  {
+    reference: "Tiago 1:22",
+    text: "e sede praticantes da palavra, e não somente ouvintes, enganando a vós mesmos.",
+  },
+  {
+    reference: "Deuteronômio 10:12",
+    text: "Agora, pois, Israel, que pede o SENHOR teu Deus de ti, a não ser que temas ao SENHOR teu Deus, que andes em todos os seus caminhos, e que o ames, e sirvas ao SENHOR teu Deus contudo teu coração, e com toda tua alma;",
+  },
+  {
+    reference: "2 Coríntios 4:8",
+    text: "Em tudo somos afligidos, mas não esmagados; perplexos, mas não desesperados;",
+  },
+  {
+    reference: "Filipenses 2:14",
+    text: "Fazei tudo sem murmurações nem brigas,",
+  },
+  {
+    reference: "Efésios 3:12",
+    text: "no qual temos coragem e acesso confiante pela fé nele.",
+  },
+  {
+    reference: "Hebreus 10:25",
+    text: "não abandonando a nossa reunião, como é o costume de alguns. Ao contrário, encorajemos uns aos outros, e tanto mais quanto vedes aquele dia se aproximando.",
+  },
+  {
+    reference: "Lucas 6:38",
+    text: "Dai, e vos será dado; medida boa, comprimida, sacudida e transbordante vos darão no vosso colo; pois com a mesma medida que medirdes vos medirão de volta”.",
+  },
+  {
+    reference: "1 Coríntios 10:31",
+    text: "Portanto, se comerdes, ou se beberdes, ou se fizerdes qualquer coisa, fazei tudo para a glória de Deus.",
+  },
+  {
+    reference: "Salmos 32:8",
+    text: "Eu te instruirei, e te ensinarei o caminho que deves seguir; eu te aconselharei com meus olhos sobre ti.",
+  },
+  {
+    reference: "Provérbios 11:25",
+    text: "A alma generosa prosperará, e aquele que saciar também será saciado.",
+  },
+  {
+    reference: "João 8:32",
+    text: "E conhecereis a verdade, e a verdade vos libertará”.",
+  },
+  {
+    reference: "Mateus 6:20",
+    text: "Mas ajuntem para vós tesouros no céu, onde nem a traça nem a ferrugem consomem, e onde os ladrões não invadem nem roubam.",
+  },
+  {
+    reference: "Isaías 40:29",
+    text: "Ele dá força ao cansado, e multiplica as forças daquele que não tem vigor.",
+  },
+  {
+    reference: "Romanos 8:18",
+    text: "Pois considero que as aflições deste tempo presente não se comparam com a glória que nos será revelada.",
+  },
+  {
+    reference: "Jeremias 29:11",
+    text: "Porque eu sei os pensamentos que penso quanto a vós, diz o SENHOR, pensamentos de paz, e não de calamidade, para vos dar um futuro com esperança.",
+  },
+  {
+    reference: "Eclesiastes 4:10",
+    text: "Porque se vierem a cair, um levanta ao seu companheiro; mas ai daquele que está só, pois caso caia, não há outro que o levante.",
   },
   {
     reference: "Salmos 34:4",
     text: "Busquei ao SENHOR, e ele me respondeu, e me livrou de todos os meus temores.",
   },
   {
-    reference: "Salmos 37:4",
-    text: "Agrada-te no SENHOR, e ele te concederá os desejos de teu coração.",
+    reference: "Provérbios 12:25",
+    text: "A ansiedade no coração do homem o abate; mas uma boa palavra o alegra.",
   },
   {
-    reference: "Salmos 46:4",
-    text: "Há um rio cujas correntes alegram a cidade de Deus, o santuário das moradas do Altíssimo.",
+    reference: "João 10:10",
+    text: "O ladrão não vem, senão para roubar, matar, e destruir; eu vim para que tenham vida, e a tenham em abundância.",
   },
   {
-    reference: "Salmos 63:4",
-    text: "Assim te bendirei enquanto eu viver; em teu nome levantarei minhas mãos.",
+    reference: "1 Coríntios 12:7",
+    text: "Mas a cada um é dada a manifestação do Espírito, para o que for conveniente.",
   },
   {
-    reference: "Salmos 84:6",
-    text: "Eles, ao passarem pelo Vale de Baca, fazem dele um lugar de fontes; e a primeira chuva o cobre de bênçãos.",
+    reference: "Lucas 8:15",
+    text: "E o que caiu em boa terra, estes são os que, ouvindo a palavra, conservam-na num coração honesto e bom, e produzem fruto com perseverança.",
   },
   {
-    reference: "Salmos 91:5",
-    text: "Tu não terás medo do terror de noite, nem da flecha que voa de dia;",
+    reference: "Deuteronômio 10:20",
+    text: "Ao SENHOR teu Deus temerás, a ele servirás, a ele te achegarás, e por seu nome jurarás.",
   },
   {
-    reference: "Salmos 95:4",
-    text: "Na mão dele estão as profundezas da terra; e as alturas do montes lhe pertencem.",
+    reference: "2 Coríntios 4:9",
+    text: "perseguidos, mas não desamparados; abatidos, mas não destruídos.",
   },
   {
-    reference: "Salmos 96:4",
-    text: "Pois o SENHOR é grande, e muito digno de louvor, mais temível do que todos os deuses.",
+    reference: "Filipenses 2:15",
+    text: "para que sejais irrepreensíveis e puros, filhos de Deus, inculpáveis no meio de uma geração corrupta e perversa, na qual brilhais como luminárias no mundo;",
   },
   {
-    reference: "Salmos 98:4",
-    text: "Jubilai no SENHOR, toda a terra; exclamai, cantai de alegria, e cantai louvores.",
+    reference: "Efésios 3:16",
+    text: "Oro para que, conforme a sua riquíssima glória, ele vos conceda que sejais fortalecidos com poder pelo seu Espírito no interior de cada um,",
   },
   {
-    reference: "Salmos 100:4",
-    text: "Entrai por suas portas com ações de graças, por seus pátios com cântico de louvor; dai graças a ele, e bendizei o seu nome.",
+    reference: "Hebreus 10:35",
+    text: "Portanto, não rejeiteis a vossa confiança, que tem uma grande recompensa;",
   },
   {
-    reference: "Salmos 103:6",
-    text: "O SENHOR faz justiça e juízos a todos os oprimidos.",
+    reference: "Tiago 2:17",
+    text: "Assim também a fé, se não tiver obras, é morta em si mesma.",
   },
   {
-    reference: "Salmos 104:4",
-    text: "Ele faz de seus anjos ventos, e de seus servos, fogo flamejante.",
+    reference: "Mateus 6:26",
+    text: "Olhai para as aves do céu, que não semeiam, nem ceifam, nem ajuntam em celeiros; e vosso Pai celestial as alimenta. Não sois vós muito mais importantes que elas?",
   },
   {
-    reference: "Salmos 112:4",
-    text: "A luz nasce nas trevas para os justos. Ele é compassivo, misericordioso, e justo.",
+    reference: "Isaías 40:31",
+    text: "Mas os que confiam no SENHOR renovarão as forças, subirão com asas como águias; correrão, e não se cansarão; caminharão, e não se fatigarão.",
   },
   {
-    reference: "Salmos 116:4",
-    text: "Então invoquei o nome do SENHOR: “Ó SENHOR, livra minha alma!”",
+    reference: "Romanos 8:25",
+    text: "Mas, se esperamos o que não vemos, com paciência esperamos.",
   },
   {
-    reference: "Salmos 118:10",
-    text: "Todas as nações me cercaram; mas, no nome do SENHOR, eu as despedacei.",
-  },
-  {
-    reference: "Salmos 121:5",
-    text: "O SENHOR é quem te guarda; o SENHOR é a sombra à tua direita.",
-  },
-  {
-    reference: "Salmos 126:5",
-    text: "Os que semeiam com lágrimas colherão com júbilo.",
-  },
-  {
-    reference: "Salmos 128:4",
-    text: "Eis que assim será abençoado o homem que teme o SENHOR.",
-  },
-  {
-    reference: "Salmos 130:4",
-    text: "Porém contigo está o perdão, para que tu sejas temido.",
-  },
-  {
-    reference: "Salmos 136:4",
-    text: "Ao que sozinho faz grandes maravilhas, porque seu leal amor é para sempre.",
-  },
-  {
-    reference: "Salmos 138:4",
-    text: "Todos os reis da terra te louvarão, SENHOR, quando ouvirem as palavras de tua boca.",
-  },
-  {
-    reference: "Salmos 139:5",
-    text: "Tu me cercas por trás e pela frente, e sobre mim pões tua mão.",
-  },
-  {
-    reference: "Salmos 145:5",
-    text: "Meditarei no esplendor glorioso de tua majestade, e nas tuas obras maravilhosas.",
-  },
-  {
-    reference: "Salmos 146:4",
-    text: "O espírito deles sai, e volta para sua terra; naquele mesmo dia seus pensamentos perecem.",
-  },
-  {
-    reference: "Salmos 147:5",
-    text: "Nosso Senhor é grande e muitíssimo poderoso; seu entendimento não se pode medir.",
-  },
-  {
-    reference: "Salmos 148:4",
-    text: "Louvai-o, céus dos céus, e as águas que estão acima dos céus.",
-  },
-  {
-    reference: "Salmos 149:4",
-    text: "Pois o SENHOR se agrada do seu povo; ele adornará com a vitória os humildes.",
-  },
-  {
-    reference: "Salmos 150:4",
-    text: "Louvai-o com tamborim e dança; louvai-o com instrumentos de cordas e com flauta.",
-  },
-  {
-    reference: "Salmos 1:5",
-    text: "Por isso os maus não permanecerão de pé no julgamento, nem os pecadores no ajuntamento dos justos.",
-  },
-  {
-    reference: "Salmos 8:5",
-    text: "Pois o fizeste um pouco menor que os seres divinos; e o coroaste com glória e honra.",
-  },
-  {
-    reference: "Salmos 19:5",
-    text: "que é como um noivo, que sai de sua câmara, e se alegra como um homem forte, a percorrer o caminho.",
-  },
-  {
-    reference: "Salmos 23:5",
-    text: "Preparas uma mesa perante mim na presença de meus inimigos; unges minha cabeça com óleo, meu cálice transborda.",
-  },
-  {
-    reference: "Salmos 27:5",
-    text: "Porque no dia da adversidade ele me esconderá em seu abrigo; no oculto de sua tenda ele me esconderá; me elevará para sobre uma rocha.",
-  },
-  {
-    reference: "Salmos 34:5",
-    text: "Os que olham para ele ficam radiantes, e seus rostos não serão envergonhados.",
-  },
-  {
-    reference: "Salmos 37:5",
-    text: "Entrega teu caminho ao SENHOR; confia nele, e ele agirá,",
-  },
-  {
-    reference: "Salmos 46:5",
-    text: "No meio dela Deus está; ela não será abalada; Deus a ajudará ao romper da manhã.",
-  },
-  {
-    reference: "Salmos 63:5",
-    text: "Minha alma será saciada, como que de comida rica; e minha boca te louvará com lábios alegres,",
-  },
-  {
-    reference: "Salmos 84:8",
-    text: "SENHOR Deus dos exércitos, escuta minha oração; ouve, ó Deus de Jacó. (Selá)",
-  },
-  {
-    reference: "Salmos 91:6",
-    text: "nem da peste que anda na escuridão, nem da mortandade que assola ao meio-dia.",
-  },
-  {
-    reference: "Salmos 95:5",
-    text: "Dele é o mar, pois ele o fez; e suas mãos formaram a terra seca.",
-  },
-  {
-    reference: "Salmos 96:5",
-    text: "Porque todos os deuses dos povos são ídolos, mas o SENHOR fez os céus.",
-  },
-  {
-    reference: "Salmos 98:5",
-    text: "Cantai louvores ao SENHOR com harpa; com harpa, e com a voz de melodia;",
-  },
-  {
-    reference: "Salmos 103:7",
-    text: "Manifestou seus caminhos a Moisés, e seus feitos aos filhos de Israel.",
-  },
-  {
-    reference: "Salmos 104:5",
-    text: "Ele lançou os fundamentos da terra, para que ela nunca se abale.",
-  },
-  {
-    reference: "Salmos 112:5",
-    text: "Bem vai ao homem que é misericordioso e empresta; ele conduz suas negócios com justiça.",
-  },
-  {
-    reference: "Salmos 116:5",
-    text: "O SENHOR é compassivo e justo; nosso Deus é misericordioso.",
-  },
-  {
-    reference: "Salmos 118:11",
-    text: "Cercaram-me e me rodearam; mas, no nome do SENHOR, eu as despedacei.",
-  },
-  {
-    reference: "Salmos 121:6",
-    text: "O sol não te ferirá de dia, nem a lua de noite.",
-  },
-  {
-    reference: "Salmos 128:5",
-    text: "O SENHOR te abençoe desde Sião, e que tu vejas a prosperidade de Jerusalém todos os dias de tua vida;",
-  },
-  {
-    reference: "Salmos 130:5",
-    text: "Espero no SENHOR, a minha alma espera; e aguardo na sua palavra.",
-  },
-  {
-    reference: "Salmos 136:5",
-    text: "Ao que com entendimento fez os céus, porque seu leal amor é para sempre.",
-  },
-  {
-    reference: "Salmos 138:5",
-    text: "E cantarão dos caminhos do SENHOR, pois grande é a glória do SENHOR.",
-  },
-  {
-    reference: "Salmos 139:7",
-    text: "Para onde eu escaparia de teu Espírito? E para onde fugiria de tua presença?",
-  },
-  {
-    reference: "Salmos 145:6",
-    text: "E falarão do poder de teus temíveis feitos; e contarei tua grandeza.",
-  },
-  {
-    reference: "Salmos 146:6",
-    text: "que fez os céus e a terra, o mar, e tudo o que neles há; que mantém a fidelidade para sempre;",
-  },
-  {
-    reference: "Salmos 147:6",
-    text: "O SENHOR eleva os humildes, e rebaixa os perversos ao chão.",
-  },
-  {
-    reference: "Salmos 148:5",
-    text: "Louvai ao nome do SENHOR, pois ele mandou, e foram criados.",
-  },
-  {
-    reference: "Salmos 149:5",
-    text: "Que os santos jubilem com glória; cantem de alegria em suas camas.",
-  },
-  {
-    reference: "Salmos 150:5",
-    text: "Louvai-o com címbalos bem sonoros; louvai-o com címbalos altamente ressonantes.",
-  },
-  {
-    reference: "Salmos 1:6",
-    text: "Porque o SENHOR conhece o caminho dos justos; porém o caminho dos maus perecerá.",
-  },
-  {
-    reference: "Salmos 8:6",
-    text: "Tu o fizeste dominar as obras de tuas mãos; tudo puseste debaixo de seus pés.",
-  },
-  {
-    reference: "Salmos 19:6",
-    text: "Sua saída é de uma extremidade dos céus, e seu percurso até sua outra extremidade; e nada se esconde de seu calor.",
-  },
-  {
-    reference: "Salmos 27:6",
-    text: "Também agora minha cabeça será elevada acima de meus inimigos ao redor de mim; e na tenda dele oferecerei sacrifícios de júbilo; cantarei e louvarei ao SENHOR.",
-  },
-  {
-    reference: "Salmos 34:6",
-    text: "Este pobre clamou, e o SENHOR o ouviu, e o salvou de todas as suas angústias.",
-  },
-  {
-    reference: "Salmos 37:6",
-    text: "e fará aparecer tua justiça como a luz, e teu direito como o sol do meio-dia.",
-  },
-  {
-    reference: "Salmos 46:6",
-    text: "As nações bramam, os reinos se abalam; ele levanta sua voz e a terra se derrete.",
-  },
-  {
-    reference: "Salmos 63:6",
-    text: "quando eu me lembrar de ti na minha cama, e meditar em ti nas vigílias da noite.",
-  },
-  {
-    reference: "Salmos 84:9",
-    text: "Olha, ó Deus, nosso escudo, e observa o rosto do teu ungido.",
-  },
-  {
-    reference: "Salmos 91:8",
-    text: "Somente com teus olhos observarás, e verás a retribuição dos perversos.",
-  },
-  {
-    reference: "Salmos 95:6",
-    text: "Vinde, adoremos, e estejamos prostrados; ajoelhemos diante do SENHOR, nosso Criador.",
-  },
-  {
-    reference: "Salmos 96:6",
-    text: "Glória e majestade há diante dele; força e beleza há em seu santuário.",
-  },
-  {
-    reference: "Salmos 98:6",
-    text: "com trombetas, e som de buzinas; jubilai diante do SENHOR, o Rei.",
-  },
-  {
-    reference: "Salmos 103:8",
-    text: "O SENHOR é misericordioso e cheio de compaixão, lento para irar-se, e grande em leal bondade.",
-  },
-  {
-    reference: "Salmos 104:6",
-    text: "Tu a cobriste com o abismo, como uma vestimenta; as águas ficaram acima dos montes.",
-  },
-  {
-    reference: "Salmos 112:6",
-    text: "Em verdade ele nunca se abalará; o justo será lembrado para sempre.",
-  },
-  {
-    reference: "Salmos 116:6",
-    text: "O SENHOR protege os simples; eu estava abatido, mas ele me salvou.",
-  },
-  {
-    reference: "Salmos 118:13",
-    text: "Com força tu me empurraste para que eu caísse, mas o SENHOR me ajudou.",
-  },
-  {
-    reference: "Salmos 121:7",
-    text: "O SENHOR te guardará de todo o mal; guardará tua alma.",
-  },
-  {
-    reference: "Salmos 130:7",
-    text: "Ó Israel, espera no SENHOR; porque com o SENHOR há leal bondade, e nele há redenção em abundância.",
-  },
-  {
-    reference: "Salmos 136:6",
-    text: "Ao que estendeu a terra sobre as águas, porque seu leal amor é para sempre.",
-  },
-  {
-    reference: "Salmos 138:6",
-    text: "Pois, ainda que SENHOR seja elevado, ele olha para o humilde; mas ele reconhece o soberbo de longe.",
-  },
-  {
-    reference: "Salmos 139:8",
-    text: "Se eu subir aos céus, lá tu estás; se eu fizer meu leito no Xeol, eis que tu ali estás.",
-  },
-  {
-    reference: "Salmos 145:7",
-    text: "Proclamarão a lembrança de tua grande bondade, e cantarão sobre tua justiça.",
-  },
-  {
-    reference: "Salmos 146:7",
-    text: "que faz justiça aos oprimidos, que dá pão aos famintos; o SENHOR liberta os presos.",
-  },
-  {
-    reference: "Salmos 147:7",
-    text: "Cantai ao SENHOR em ação de graças; cantai louvores com harpa ao nosso Deus.",
-  },
-  {
-    reference: "Salmos 148:6",
-    text: "E os estabeleceu para todo o sempre; e deu um decreto, que não será ultrapassado.",
-  },
-  {
-    reference: "Salmos 149:6",
-    text: "Os altos louvores a Deus estejam em suas bocas; e uma espada de dois gumes em suas mãos,",
-  },
-  {
-    reference: "Salmos 150:6",
-    text: "Tudo o que respira louve o SENHOR! Aleluia!",
-  },
-  {
-    reference: "Salmos 8:7",
-    text: "Todas as ovelhas e os bois, como também os animais do campo;",
-  },
-  {
-    reference: "Salmos 19:7",
-    text: "A lei do SENHOR é perfeita, e restaura a alma; o testemunho do SENHOR é fiel, e dá sabedoria aos simples.",
-  },
-  {
-    reference: "Salmos 27:7",
-    text: "Ouve, SENHOR, minha voz, eu clamo; tem misericórdia de mim, e responde-me.",
-  },
-  {
-    reference: "Salmos 34:7",
-    text: "O anjo do SENHOR se acampa ao redor dos que o temem, e os livra.",
-  },
-  {
-    reference: "Salmos 37:7",
-    text: "Descansa no SENHOR, e espera nele; não te irrites por causa daquele cujo caminho prospera, por causa do homem que executa planos malignos.",
-  },
-  {
-    reference: "Salmos 46:7",
-    text: "O SENHOR dos exércitos está conosco; o Deus de Jacó é nosso alto refúgio. (Selá)",
-  },
-  {
-    reference: "Salmos 63:7",
-    text: "Porque tu tens sido meu socorro; e à sombra de tuas asas eu jubilo.",
-  },
-  {
-    reference: "Salmos 84:11",
-    text: "Porque o SENHOR Deus é sol e escudo; o SENHOR dará graça e honra; ele não recusará o bem aos que andam em integridade.",
-  },
-  {
-    reference: "Salmos 91:9",
-    text: "Pois tu, SENHOR, és meu refúgio. Fizeste do Altíssimo tua habitação.",
-  },
-  {
-    reference: "Salmos 95:7",
-    text: "Pois ele é o nosso Deus, e nós somos povo do seu pasto e ovelhas de sua mão. Se hoje vós ouvirdes a voz dele,",
-  },
-  {
-    reference: "Salmos 96:7",
-    text: "Dai ao SENHOR, ó famílias dos povos; dai ao SENHOR a glória e a força.",
-  },
-  {
-    reference: "Salmos 98:7",
-    text: "Bramem o mar e sua plenitude; o mundo e os que nele habitam.",
-  },
-  {
-    reference: "Salmos 103:10",
-    text: "Ele não nos trata conforme nossos pecados, nem nos retribui conforme nossas perversidades.",
-  },
-  {
-    reference: "Salmos 104:7",
-    text: "De tua repreensão fugiram; pela voz de teu trovão elas se apressaram a sair.",
-  },
-  {
-    reference: "Salmos 112:7",
-    text: "Ele não temerá as más notícias; seu coração está firme, confiando no SENHOR.",
-  },
-  {
-    reference: "Salmos 116:7",
-    text: "Ó minha alma, volta ao teu repouso, pois o SENHOR te tratou bem.",
-  },
-  {
-    reference: "Salmos 118:15",
-    text: "Nas tendas dos justos há voz de júbilo e de salvação; a mão direita do SENHOR faz proezas.",
-  },
-  {
-    reference: "Salmos 136:7",
-    text: "Ao que fez os grandes luminares, porque seu leal amor é para sempre.",
-  },
-  {
-    reference: "Salmos 138:7",
-    text: "Quando eu ando no meio da angústia, tu me vivificas; estendes tua mão contra a ira dos meus inimigos; e tua mão direita me salva.",
-  },
-  {
-    reference: "Salmos 139:9",
-    text: "Se eu tomar as asas do amanhecer, e habitar na extremidade do mar,",
-  },
-  {
-    reference: "Salmos 145:8",
-    text: "O SENHOR é compassivo e misericordioso; lento para irar-se, e grande em leal bondade.",
-  },
-  {
-    reference: "Salmos 146:9",
-    text: "O SENHOR guarda os estrangeiros; sustenta o órfão e a viúva, mas arruína o caminho dos perversos.",
-  },
-  {
-    reference: "Salmos 147:8",
-    text: "Ele é o que cobre o céu de nuvens, o que prepara chuva para a terra, o que faz produzir erva sobre os montes;",
-  },
-  {
-    reference: "Salmos 148:7",
-    text: "Louvai ao SENHOR desde a terra, monstros marinhos, e todos os abismos;",
-  },
-  {
-    reference: "Salmos 149:7",
-    text: "para executarem vingança sobre as nações, e castigarem os povos;",
-  },
-  {
-    reference: "Salmos 8:8",
-    text: "as aves dos céus, e os peixes do mar; e tudo o que passa pelas veredas dos mares.",
-  },
-  {
-    reference: "Salmos 19:8",
-    text: "Os preceitos do SENHOR são corretos, alegram o coração; o mandamento do SENHOR é puro, ilumina os olhos.",
-  },
-  {
-    reference: "Salmos 27:8",
-    text: "Meu coração disse de tua parte: “Buscai minha face”. Tua face buscarei, SENHOR”.",
+    reference: "Josué 4:24",
+    text: "Para que todos os povos da terra conheçam a mão do SENHOR, que é forte; para que temais ao SENHOR vosso Deus todos os dias.",
   },
   {
     reference: "Salmos 34:8",
     text: "Experimentai e vede que o SENHOR é bom; bem-aventurado é o homem que nele confia.",
   },
   {
-    reference: "Salmos 37:8",
-    text: "Deixa a ira, e abandona o furor; não te irrites; isso só causa o mal.",
+    reference: "Provérbios 13:20",
+    text: "Quem anda com os sábios se torna sábio; mas aquele que acompanha os tolos sofrerá.",
   },
   {
-    reference: "Salmos 46:8",
-    text: "Vinde, vede as obras do SENHOR, as assolações que ele fez na terra.",
+    reference: "João 10:11",
+    text: "Eu sou o bom Pastor; o bom Pastor dá sua vida pelas ovelhas.",
   },
   {
-    reference: "Salmos 63:8",
-    text: "Minha alma está apegada a ti; tua mão direita me sustenta.",
+    reference: "Apocalipse 21:3",
+    text: "E eu ouvi uma grande voz do céu, dizendo: “Eis que o tabernáculo de Deus está com os seres humanos; e com eles habitará, e eles serão seu povo, e o próprio Deus estará com eles, e será seu Deus.",
   },
   {
-    reference: "Salmos 91:10",
-    text: "Nenhum mal te sucederá, nem praga alguma chegará à tua tenda.",
+    reference: "Jeremias 29:12",
+    text: "Então me invocareis, e ireis, e orareis a mim, e eu vos ouvirei;",
   },
   {
-    reference: "Salmos 95:8",
-    text: "não endureçais vosso coração, como em Meribá, como no dia da tentação no deserto,",
+    reference: "Eclesiastes 4:12",
+    text: "E se alguém prevalecer contra um, dois podem resistir contra ele; porque o cordão de três dobras não se rompe tão depressa.",
   },
   {
-    reference: "Salmos 96:8",
-    text: "Dai ao SENHOR a glória devida ao seu nome; trazei ofertas, e entrai nos pátios dele.",
+    reference: "1 Coríntios 12:26",
+    text: "E seja que, caso um membro sofra, também os membros sofrem juntos; e caso um membro seja honrado, todos os membros se alegram juntos.",
   },
   {
-    reference: "Salmos 98:8",
-    text: "Os rios batam palmas, e as montanhas juntamente jubilem,",
+    reference: "Lucas 10:20",
+    text: "Mas não se alegrem nisso, de que os espíritos se submetam a vós; em vez disso, alegrai-vos de que vossos nomes estão escritos nos céus”.",
   },
   {
-    reference: "Salmos 103:11",
-    text: "Pois, como os céus estão elevados acima da terra, assim é grande sua leal bondade para com os que o temem.",
+    reference: "Mateus 6:32",
+    text: "Porque todas essas coisas os gentios buscam; pois vosso Pai celestial sabe que necessitais todas essas coisas.",
   },
   {
-    reference: "Salmos 104:8",
-    text: "Os montes subiram, os vales desceram, até o lugar que tu lhes tinhas fundado.",
+    reference: "Isaías 41:10",
+    text: "Não temas, porque eu estou contigo; não te assombres, porque eu sou teu Deus. Eu te fortaleço, te ajudo, e te sustento com a minha mão direita de justiça.",
   },
   {
-    reference: "Salmos 112:9",
-    text: "Ele distribui, e dá aos necessitados; sua justiça permanece para sempre; seu poder será exaltado em honra.",
+    reference: "Romanos 8:28",
+    text: "E sabemos que todas as coisas juntamente contribuem para o bem daqueles que amam a Deus, dos que são chamados segundo o seu propósito.",
   },
   {
-    reference: "Salmos 116:8",
-    text: "Pois tu livraste minha alma da morte, meus olhos das lágrimas, e meus pés da queda.",
+    reference: "Salmos 37:4",
+    text: "Agrada-te no SENHOR, e ele te concederá os desejos de teu coração.",
   },
   {
-    reference: "Salmos 118:16",
-    text: "A mão direita do SENHOR é elevada; a mão direita do SENHOR faz proezas.",
+    reference: "Provérbios 14:26",
+    text: "No temor ao SENHOR há forte confiança; e será refúgio para seus filhos.",
   },
   {
-    reference: "Salmos 136:8",
-    text: "O sol, para governar no dia, porque seu leal amor é para sempre.",
+    reference: "João 10:27",
+    text: "Minhas ovelhas ouvem a minha voz, e eu as conheço, e elas me seguem.",
   },
   {
-    reference: "Salmos 139:10",
-    text: "até ali tua mão me guiará, e tua mão direita me sustentará.",
+    reference: "Deuteronômio 11:18",
+    text: "Portanto, poreis estas minhas palavras em vosso coração e em vossa alma, e as atareis por sinal em vossa mão, e serão por frontais entre vossos olhos.",
   },
   {
-    reference: "Salmos 145:9",
-    text: "O SENHOR é bom para todos, e suas misericórdias estão sobre todas as obras que ele fez.",
+    reference: "2 Coríntios 4:16",
+    text: "Por isso não desanimamos; mas, ainda que o nosso ser humano exterior se desgaste, todavia, o interior se renova a cada dia.",
   },
   {
-    reference: "Salmos 147:9",
-    text: "o que dá aos animais seu alimento; e aos filhos dos corvos, quando clamam.",
+    reference: "Filipenses 3:8",
+    text: "E, na verdade, considero também todas as coisas como perda, por causa da superioridade de conhecer a Cristo Jesus, meu Senhor. Por ele aceitei perder todas essas coisas, e as considero como dejetos, a fim de que eu possa ganhar a Cristo;",
   },
   {
-    reference: "Salmos 148:8",
-    text: "O fogo e o granizo, a neve e o vapor; o vento tempestuoso, que executa sua palavra;",
+    reference: "Efésios 3:17",
+    text: "para que Cristo habite em vossos corações pela fé. Oro para que vós estejais enraizados e firmados no amor,",
   },
   {
-    reference: "Salmos 149:8",
-    text: "para prenderem seus reis com correntes, e seus nobres com algemas de ferro;",
+    reference: "Hebreus 10:36",
+    text: "pois necessitais de paciência, a fim de que, depois de haverdes feito a vontade de Deus, recebais o que foi prometido.",
   },
   {
-    reference: "Salmos 19:9",
-    text: "O temor ao SENHOR é puro, permanece eternamente; os juízos do SENHOR são verdadeiros, e todos eles justos.",
+    reference: "Tiago 3:17",
+    text: "Mas a sabedoria do alto é primeiramente pura, depois pacífica, moderada, tratável, cheia de misericórdia e de bons frutos, imparcial e sem hipocrisia.",
   },
   {
-    reference: "Salmos 27:9",
-    text: "Não escondas de mim tua face, não rejeites teu servo com ira; tu és meu socorro; não me deixes, nem me abandones, ó Deus de minha salvação.",
+    reference: "1 Coríntios 13:1",
+    text: "Ainda que eu falasse as línguas dos seres humanos e dos anjos, e não tivesse amor, seria como o metal que soa, ou como o sino que retine.",
   },
   {
-    reference: "Salmos 34:9",
-    text: "Temei ao SENHOR vós, santos dele; porque nada falta aos que o temem.",
+    reference: "Salmos 37:5",
+    text: "Entrega teu caminho ao SENHOR; confia nele, e ele agirá,",
   },
   {
-    reference: "Salmos 37:9",
-    text: "Porque os malfeitores serão exterminados; mas os que esperam no SENHOR herdarão a terra.",
+    reference: "Provérbios 15:1",
+    text: "A resposta suave desvia o furor, mas a palavra pesada faz a ira aumentar.",
   },
   {
-    reference: "Salmos 46:9",
-    text: "Ele faz cessar as guerras até o fim da terra; quebra o arco e corta a lança; queima as carruagens no fogo.",
+    reference: "João 10:28",
+    text: "E eu lhes dou a vida eterna, e nunca perecerão, e ninguém as arrebatará de minha mão.",
   },
   {
-    reference: "Salmos 63:9",
-    text: "Mas aqueles que procuram destruir minha alma irão para as profundezas da terra.",
+    reference: "Mateus 6:34",
+    text: "Não andeis, pois, ansiosos pelo dia de amanhã, porque o amanhã se preocupará consigo mesmo. Basta a cada dia o seu mal.",
   },
   {
-    reference: "Salmos 91:11",
-    text: "Porque ele ordenará seus anjos quanto a ti, para que guardem todos os teus caminhos.",
+    reference: "Isaías 41:13",
+    text: "Porque eu, o SENHOR teu Deus, te seguro pela tua mão direita, e te digo: Não temas; eu te ajudo.",
   },
   {
-    reference: "Salmos 95:9",
-    text: "onde vossos ancestrais me tentaram; provaram-me, eles que tinham visto minha obra.",
+    reference: "Romanos 8:31",
+    text: "Então, que diremos acerca dessas coisas? Se Deus é por nós, quem será contra nós?",
   },
   {
-    reference: "Salmos 96:9",
-    text: "Adorai ao SENHOR na beleza da santidade; tremei diante dele toda a terra.",
+    reference: "Lucas 10:27",
+    text: "E ele, respondendo, disse: “Amarás o Senhor teu Deus de todo o teu coração, de toda a tua alma, de todas as tuas forças, e de todo o teu entendimento; e amarás o teu próximo como a ti mesmo”.",
   },
   {
-    reference: "Salmos 98:9",
-    text: "diante do SENHOR, porque ele vem julgar a terra; ele julgará o mundo com justiça, e os povos com retidão.",
+    reference: "Josué 21:45",
+    text: "Não faltou palavra de todas as boas coisas que o SENHOR falou à casa de Israel; tudo se cumpriu.",
   },
   {
-    reference: "Salmos 103:12",
-    text: "Como o oriente está longe do ocidente, assim ele afasta de nós as nossas transgressões.",
+    reference: "Jeremias 29:13",
+    text: "E vós me buscareis e achareis, quando me buscardes de todo o vosso coração.",
   },
   {
-    reference: "Salmos 104:10",
-    text: "Ele faz brotar as fontes nos vales, para que corram entre os montes.",
+    reference: "Eclesiastes 5:2",
+    text: "Não te precipites com tua boca, nem te apresses com teu coração, a pronunciar palavra alguma perante a face de Deus; porque Deus está nos céus, e tu estás na terra; por isso, que tuas palavras sejam poucas.",
   },
   {
-    reference: "Salmos 112:10",
-    text: "O perverso verá, e se ficará irritado; rangerá seus dentes, e se consumirá. O desejo dos perversos perecerá.",
+    reference: "Deuteronômio 13:4",
+    text: "Atrás do SENHOR vosso Deus andareis, e a ele temereis, e guardareis seus mandamentos, e escutareis sua voz, e a ele servireis, e a ele vos achegareis.",
   },
   {
-    reference: "Salmos 116:9",
-    text: "Andarei diante do SENHOR na terra dos viventes.",
+    reference: "2 Coríntios 4:17",
+    text: "Porque a nossa leve e momentânea aflição nos produz um peso eterno de sobrepujante glória;",
   },
   {
-    reference: "Salmos 118:17",
-    text: "Não morrerei, mas viverei; e contarei as obras do SENHOR.",
+    reference: "Filipenses 3:14",
+    text: "e prossigo para o alvo, ao prêmio do chamado de cima, de Deus em Cristo Jesus.",
   },
   {
-    reference: "Salmos 136:9",
-    text: "A lua e as estrelas, para governarem à noite, porque seu leal amor é para sempre.",
+    reference: "Efésios 3:20",
+    text: "E quanto àquele que é poderoso para fazer tudo muito mais abundantemente do que pedimos ou pensamos, segundo o poder que opera em nós,",
   },
   {
-    reference: "Salmos 139:11",
-    text: "Se eu disser: “Certamente as trevas me encobrirão, e a luz ao redor de mim será a noite”.",
+    reference: "Hebreus 11:1",
+    text: "Ora, a fé é a certeza das coisas que se esperam, e a prova das coisas que não se veem.",
   },
   {
-    reference: "Salmos 145:10",
-    text: "Todas as tuas obras te darão graças, SENHOR; e teus santos te bendirão.",
+    reference: "Salmos 40:1",
+    text: "Esperei pacientemente pelo SENHOR; e ele se inclinou a mim e ouviu meu clamor.",
   },
   {
-    reference: "Salmos 147:10",
-    text: "Ele não se agrada com a força do cavalo, nem tem prazer nas pernas do homem.",
+    reference: "Provérbios 15:13",
+    text: "O coração alegre anima o rosto, mas pela dor do coração o espírito se abate.",
   },
   {
-    reference: "Salmos 148:9",
-    text: "os montes e todas as colinas; árvores frutíferas, e todos os cedros;",
+    reference: "João 11:25",
+    text: "Jesus lhe disse: “Eu sou a ressurreição e a vida; quem crê em mim, ainda que esteja morto, viverá.",
   },
   {
-    reference: "Salmos 149:9",
-    text: "para executarem sobre eles a sentença escrita; esta será uma honra para todos os santos dele. Aleluia!",
+    reference: "Apocalipse 21:4",
+    text: "E Deus limpará toda lágrima dos olhos deles; e não haverá mais morte, nem pranto, nem clamor, nem mais haverá dor; porque as primeiras coisas já passaram.”",
   },
   {
-    reference: "Salmos 19:10",
-    text: "São mais desejáveis do que ouro, mais do que muito ouro refinado; e mais doces do que o mel e o gotejar dos favos.",
+    reference: "Tiago 3:18",
+    text: "E o fruto da justiça é semeado na paz para os que praticam a paz.",
   },
   {
-    reference: "Salmos 27:10",
-    text: "Pois, ainda que meu pai e minha mãe me abandonem, o SENHOR me acolherá.",
+    reference: "1 Coríntios 13:2",
+    text: "E ainda que tivesse o dom de profecia, e soubesse todos os mistérios, e todo o conhecimento; e ainda que tivesse toda a fé, de tal maneira que movesse os montes de lugar, e não tivesse amor, nada seria.",
   },
   {
-    reference: "Salmos 34:10",
-    text: "Os leõezinhos passam necessidades e têm fome, mas os que buscam o SENHOR, não lhes falta bem algum.",
+    reference: "Mateus 7:7",
+    text: "Pedi, e vos será dado; buscai, e achareis; batei, e vos será aberto;",
   },
   {
-    reference: "Salmos 37:10",
-    text: "Pois ainda um pouco, e não haverá mais perverso; e tu olharás para o lugar dele, e ele não estará.",
+    reference: "Isaías 43:1",
+    text: "Porém agora assim diz o SENHOR, o teu Criador, ó Jacó, e o teu Formador, ó Israel: Não temas, porque eu te resgatei; chamei a ti por teu nome; tu és meu.",
   },
   {
-    reference: "Salmos 46:10",
-    text: "Aquietai-vos, e sabei que eu sou Deus; serei exaltado entre as nações; serei exaltado sobre a terra.",
+    reference: "Romanos 8:32",
+    text: "Aquele que nem mesmo ao seu próprio Filho poupou, como não nos dará também com ele todas as coisas?",
   },
   {
-    reference: "Salmos 63:10",
-    text: "Serão entregues ao poder da espada; se tornarão ração para chacais.",
+    reference: "Lucas 11:9",
+    text: "E eu vos digo: pedi, e vos será dado; buscai, e achareis; batei, e vos será aberto.",
   },
   {
-    reference: "Salmos 91:12",
-    text: "Eles te sustentarão pelas mãos, para que tu não tropeces teu pé em alguma pedra.",
+    reference: "Salmos 42:11",
+    text: "Por que estás abatida, ó minha alma? E por que te inquietas em mim? Espera em Deus; pois ainda o louvarei; ele é minha salvação e meu Deus.",
   },
   {
-    reference: "Salmos 95:11",
-    text: "Por isso jurei na minha ira que não entrarão no meu descanso”.",
+    reference: "Provérbios 15:22",
+    text: "Os planos fracassam quando não há bom conselho; mas com abundância de conselheiros eles se confirmam.",
   },
   {
-    reference: "Salmos 96:10",
-    text: "Dizei entre as nações: “O SENHOR reina”; o mundo está firme, para que não se abale; ele julgará os povos com retidão.",
+    reference: "João 11:26",
+    text: "E todo aquele que vive e crê em mim jamais morrerá. Tu crês nisso?”",
   },
   {
-    reference: "Salmos 103:13",
-    text: "Como um pai se compadece dos filhos, assim o SENHOR se compadece daqueles que o temem.",
+    reference: "Deuteronômio 20:4",
+    text: "Que o SENHOR vosso Deus anda convosco, para lutar por vós contra vossos inimigos, para vos salvar.",
   },
   {
-    reference: "Salmos 104:11",
-    text: "Elas dão de beber a todos os animais do campo, os asnos selvagens matam a sede.",
+    reference: "2 Coríntios 4:18",
+    text: "pois nós não damos atenção às coisas visíveis, mas às invisíveis; porque as coisas visíveis são temporárias, mas as invisíveis são eternas.",
   },
   {
-    reference: "Salmos 116:10",
-    text: "Eu cri, por isso falei; estive muito aflito.",
+    reference: "Filipenses 3:20",
+    text: "Mas nós somos cidadãos dos céus, de onde também esperamos um Salvador, o Senhor Jesus Cristo.",
   },
   {
-    reference: "Salmos 118:18",
-    text: "O SENHOR me castigou severamente, mas não me entregou à morte.",
+    reference: "Efésios 4:2",
+    text: "com toda humildade e mansidão; com paciência, tolerando uns aos outros em amor.",
   },
   {
-    reference: "Salmos 136:10",
-    text: "Ao que feriu o Egito em seus primogênitos, porque seu leal amor é para sempre.",
+    reference: "Hebreus 11:6",
+    text: "Ora, sem fé é impossível agradar a Deus. Pois é necessário que aquele que se aproxima de Deus creia que ele existe, e que ele é recompensador dos que o buscam.",
   },
   {
-    reference: "Salmos 139:13",
-    text: "Pois tu formaste o meu interior, e me teceste no ventre de minha mãe.",
+    reference: "Mateus 7:8",
+    text: "pois aquele que pede recebe; e quem busca acha; e ao que bate lhe é aberto.",
   },
   {
-    reference: "Salmos 145:11",
-    text: "Contarão da glória do teu reino, e falarão do teu poder,",
+    reference: "Isaías 43:2",
+    text: "Quando passares pelas águas, estarei contigo; e ao passares pelos rios, eles não te submergirão; quando passares pelo fogo, não te queimarás, nem a chamas arderão em ti.",
   },
   {
-    reference: "Salmos 147:11",
-    text: "O SENHOR tem prazer nos que o temem, naqueles que esperam na leal bondade dele.",
+    reference: "Romanos 8:37",
+    text: "Mas em todas estas coisas somos mais que vencedores, por meio daquele que nos amou.",
   },
   {
-    reference: "Salmos 148:10",
-    text: "as feras, e todo o gado; répteis, e aves voadoras;",
+    reference: "Jeremias 31:3",
+    text: "O SENHOR apareceu a mim já há muito tempo, dizendo: Com amor eterno eu tenho te amado; por isso com bondade te sustento.",
   },
   {
-    reference: "Salmos 19:11",
-    text: "Também por eles teu servo é advertido; e no guardá-los há grande recompensa.",
+    reference: "Eclesiastes 5:19",
+    text: "E todo homem a quem Deus deu riquezas e bens, e lhe deu poder para comer delas, e tomar sua parte, e se alegrar de seu trabalho; isto é presente de Deus.",
   },
   {
-    reference: "Salmos 27:11",
-    text: "Ensina-me, SENHOR, teu caminho; e guia-me pela vereda correta, por causa dos inimigos que me espreitam.",
+    reference: "1 Coríntios 13:3",
+    text: "E ainda que eu distribuísse todos os meus bens para alimentar aos pobres, e ainda que entregasse meu corpo para ser queimado, e não tivesse amor, nada me aproveitaria.",
   },
   {
-    reference: "Salmos 34:11",
-    text: "Vinde, filhos, ouvi-me; eu vos ensinarei o temor ao SENHOR.",
+    reference: "Josué 22:5",
+    text: "Somente que com diligência cuideis de pôr por obra o mandamento e a lei, que Moisés servo do SENHOR vos intimou: que ameis ao SENHOR vosso Deus, e andeis em todos os seus caminhos; que guardeis seus mandamentos, e vos achegueis a ele, e lhe sirvais de todo o vosso coração e de toda a vossa alma.",
   },
   {
-    reference: "Salmos 37:11",
-    text: "Porém os mansos herdarão a terra, e se deleitarão com abundância de paz.",
+    reference: "Salmos 46:1",
+    text: "Deus é nosso refúgio e fortaleza, um socorro bem presente na angústia.",
   },
   {
-    reference: "Salmos 91:13",
-    text: "Tu pisarás o leão e a cobra; esmagarás com os pés o filho do leão e a serpente.",
+    reference: "Provérbios 16:3",
+    text: "Confia tuas obras ao SENHOR, e teus pensamentos serão firmados.",
   },
   {
-    reference: "Salmos 96:11",
-    text: "Que os céus se alegrem, e a terra jubile; o mar e sua plenitude bramem.",
+    reference: "João 12:46",
+    text: "Eu, a luz, vim ao mundo, para que todo aquele que crê em mim não permaneça nas trevas.",
   },
   {
-    reference: "Salmos 103:14",
-    text: "Pois ele conhece nossa estrutura, lembra-se de que somos pó.",
+    reference: "Tiago 4:7",
+    text: "Sujeitai-vos, pois, a Deus; resisti ao diabo, e ele fugirá de vós.",
   },
   {
-    reference: "Salmos 104:12",
-    text: "Junto delas as aves dos céus habitam, e cantam entre os ramos.",
+    reference: "Lucas 11:10",
+    text: "Porque todo aquele que pede, recebe; e quem busca, acha; e quem bate, lhe será aberto.",
   },
   {
-    reference: "Salmos 116:11",
-    text: "Eu dizia na minha pressa: “Todo ser humano é mentiroso”.",
+    reference: "Mateus 7:12",
+    text: "Portanto, tudo o que quiserdes que os outros vos façam, fazei-lhes vós também assim; porque esta é a Lei e os Profetas.",
   },
   {
-    reference: "Salmos 118:19",
-    text: "Abri vós para mim as portas da justiça; entrarei por elas, louvarei ao SENHOR.",
+    reference: "Isaías 43:19",
+    text: "Eis que farei uma coisa nova, agora surgirá; por acaso não a reconhecereis? Pois porei um caminho no deserto, e rios na terra vazia.",
   },
   {
-    reference: "Salmos 136:11",
-    text: "E tirou Israel do meio deles, porque seu leal amor é para sempre.",
+    reference: "Romanos 14:17",
+    text: "porque o reino de Deus não é comida nem bebida, mas sim justiça, paz, e alegria no Espírito Santo.",
   },
   {
-    reference: "Salmos 139:14",
-    text: "Eu te louvarei, porque eu fui feito de modo temível e maravilhoso; maravilhosas são tuas obras; e minha alma sabe muito bem disso.",
+    reference: "Salmos 55:22",
+    text: "Entrega tua carga sobre o SENHOR, e ele te sustentará; ele jamais permitirá que o justo venha a cair.",
   },
   {
-    reference: "Salmos 145:12",
-    text: "para anunciar aos filhos dos homens tuas proezas, e a glória da majestade do teu reino.",
+    reference: "Provérbios 16:9",
+    text: "O coração do homem planeja seu caminho, mas é o SENHOR que dirige seus passos.",
   },
   {
-    reference: "Salmos 147:12",
-    text: "Louva o SENHOR, ó Jerusalém; celebra o teu Deus, ó Sião.",
+    reference: "João 13:34",
+    text: "Um novo mandamento eu vos dou: que vós ameis uns aos outros; assim como eu vos amei, também vós ameis uns aos outros.",
   },
   {
-    reference: "Salmos 148:11",
-    text: "os reis da terra, e todos os povos; os príncipes, e todos os juízes da terra;",
+    reference: "1 Coríntios 13:4",
+    text: "O amor é paciente, é bondoso; o amor não é invejoso; o amor não é orgulhoso, não é arrogante.",
   },
   {
-    reference: "Salmos 19:13",
-    text: "Também guarda teu servo das soberbas, para que elas não me dominem; então serei íntegro, e ficarei limpo de grande transgressão.",
+    reference: "Deuteronômio 30:6",
+    text: "E circuncidará o SENHOR teu Deus teu coração, e o coração de tua descendência, para que ames ao SENHOR teu Deus com todo teu coração e com toda tua alma, a fim de que tu vivas.",
   },
   {
-    reference: "Salmos 27:12",
-    text: "Não me entregues à vontade de meus adversários, porque falsas testemunhas se levantaram contra mim, e os que respiram violência.",
+    reference: "2 Coríntios 5:7",
+    text: "(Pois andamos pela fé, e não pela vista).",
   },
   {
-    reference: "Salmos 34:13",
-    text: "Guarda tua língua do mal, e teus lábios de falarem o engano.",
+    reference: "Filipenses 4:4",
+    text: "Alegrai-vos sempre no Senhor. Volto a dizer: alegrai-vos.",
   },
   {
-    reference: "Salmos 37:12",
-    text: "O perverso faz projetos contra o justo, e contra ele range os dentes.",
+    reference: "Efésios 4:3",
+    text: "Procurai guardar a unidade do Espírito pelo vínculo da paz.",
   },
   {
-    reference: "Salmos 91:14",
-    text: "“Porque ele me amou tanto, eu também o livrarei; eu o porei num alto retiro, porque ele conhece meu nome.",
+    reference: "Hebreus 12:1",
+    text: "Portanto nós também, posto que estamos rodeados por uma tão grande nuvem de testemunhas, deixemos toda sobrecarga, e o pecado que facilmente nos envolve, e corramos com perseverança a corrida que nos está proposta,",
   },
   {
-    reference: "Salmos 96:12",
-    text: "Alegrem-se o campo e tudo que nele há, então todas as árvores dos bosque jubilarão,",
+    reference: "Apocalipse 21:5",
+    text: "E o que estava sentado sobre o trono disse: “Eis que eu faço novas todas as coisas.” E ele me disse: “Escreve, porque estas palavras são verdadeiras e fiéis.”",
   },
   {
-    reference: "Salmos 103:15",
-    text: "Os dias do homem são como a relva, como a flor do campo, assim ele floresce.",
+    reference: "Jeremias 31:25",
+    text: "Porque terei saciado a alma cansada, e enchido toda alma entristecida.",
   },
   {
-    reference: "Salmos 104:13",
-    text: "Ele rega os montes desde suas câmaras; a terra se farta do fruto de tuas obras.",
+    reference: "Eclesiastes 7:8",
+    text: "Melhor é o fim das coisas do que o princípio delas; melhor é o paciente de espírito do que o arrogante de espírito.",
   },
   {
-    reference: "Salmos 116:12",
-    text: "O que darei ao SENHOR por todos os benefícios que ele me tem feito?",
+    reference: "Lucas 11:13",
+    text: "Pois se vós, sendo maus, sabeis dar boas coisas aos vossos filhos, quanto mais o vosso Pai celestial dará o Espírito Santo aos que lhe pedirem?”",
   },
   {
-    reference: "Salmos 118:20",
-    text: "Esta é a porta do SENHOR, pela qual os justos entrarão.",
+    reference: "Mateus 11:28",
+    text: "Vinde a mim todos vós que estais cansados e sobrecarregados, e eu vos farei descansar.",
   },
   {
-    reference: "Salmos 136:12",
-    text: "Com mão forte, e com braço estendido, porque seu leal amor é para sempre.",
+    reference: "Isaías 46:4",
+    text: "E até vossa velhice eu serei o mesmo, e ainda até à idade dos cabelos grisalhos eu vos carregarei; eu vos fiz, e eu vos levarei; eu vos carregarei e vos livrarei.",
   },
   {
-    reference: "Salmos 139:15",
-    text: "Meus ossos não estavam escondidos de ti quando eu fui feito no oculto, quando fui tecido nas profundezas da terra.",
+    reference: "Romanos 8:39",
+    text: "nem altura, nem profundeza, nem qualquer outra criatura poderá nos separar do amor de Deus, que está em Cristo Jesus, nosso Senhor.",
   },
   {
-    reference: "Salmos 145:14",
-    text: "O SENHOR sustenta todos os que caem, e levanta todos os abatidos.",
+    reference: "Tiago 4:8",
+    text: "Aproximai-vos de Deus, e ele se aproximará de vós. Limpai as vossas mãos, pecadores, e vós de dupla mentalidade, purificai os vossos corações.",
   },
   {
-    reference: "Salmos 147:13",
-    text: "Pois ele fortifica os ferrolhos de tuas portas; ele abençoa os teus filhos dentro de ti.",
+    reference: "Salmos 62:1",
+    text: "Minha alma espera somente em Deus; dele vem a minha salvação.",
   },
   {
-    reference: "Salmos 148:12",
-    text: "os rapazes, e as moças; os velhos e os jovens;",
+    reference: "Provérbios 16:24",
+    text: "Favo de mel são as palavras suaves: doces para a alma, e remédio para os ossos.",
   },
   {
-    reference: "Salmos 27:13",
-    text: "Ainda assim, creio que verei a bondade do SENHOR na terra dos viventes.",
+    reference: "João 13:35",
+    text: "Nisto todos conhecerão que sois meus discípulos: se vós tiverdes amor uns aos outros”.",
   },
   {
-    reference: "Salmos 34:14",
-    text: "Desvia-te do mal, e faze o bem; busca e segue a paz.",
+    reference: "Josué 23:10",
+    text: "Um homem de vós perseguirá a mil: porque o SENHOR vosso Deus luta por vós, como ele vos disse.",
   },
   {
-    reference: "Salmos 37:13",
-    text: "O Senhor ri dele, pois vê que o dia dele está chegando.",
+    reference: "1 Coríntios 13:5",
+    text: "O amor não trata mal; não busca os próprios interesses, não se ira, não é rancoroso.",
   },
   {
-    reference: "Salmos 91:15",
-    text: "Ele me invocará, e eu lhe responderei; estarei com ele na angústia; eu o livrarei, e lhe darei honra.",
+    reference: "Deuteronômio 30:19",
+    text: "Aos céus e a terra chamo por testemunhas hoje contra vós, que pus diante de vós a vida e a morte, a bênção e a maldição: escolhe, pois, a vida, para que vivas tu e tua descendência:",
   },
   {
-    reference: "Salmos 96:13",
-    text: "diante do SENHOR, porque ele vem; porque ele vem julgar a terra. Ele julgará o mundo com justiça, e os povos com sua verdade.",
+    reference: "2 Coríntios 5:17",
+    text: "Portanto, se alguém está em Cristo, uma nova criatura é; as coisas velhas já passaram, eis que tudo se fez novo.",
   },
   {
-    reference: "Salmos 103:16",
-    text: "Pois, quando o vento passa por ela, logo perece; e seu lugar não será mais conhecido.",
+    reference: "Filipenses 4:6",
+    text: "Não estejais ansiosos por coisa alguma; mas em tudo, por meio de orações e súplicas com ações de gratidão, sejam os vossos pedidos conhecidos por Deus;",
   },
   {
-    reference: "Salmos 104:14",
-    text: "Ele faz crescer a erva para os animais, e as plantas para o serviço do ser humano, para que ele tire da terra o alimento,",
+    reference: "Efésios 4:32",
+    text: "Em vez disso, sede benignos uns com os outros, misericordiosos, perdoando-vos uns aos outros, como também Deus vos perdoou em Cristo.",
   },
   {
-    reference: "Salmos 116:13",
-    text: "Levantarei o cálice da salvação, e invocarei o nome do SENHOR.",
+    reference: "Hebreus 12:2",
+    text: "olhando para Jesus, Autor e aperfeiçoador da fé. Ele, pela alegria que lhe estava proposta, suportou a cruz, desprezando a humilhação, e assentou-se à direita do trono de Deus.",
   },
   {
-    reference: "Salmos 118:21",
-    text: "Eu te louvo, porque tu me respondeste e te fizeste minha salvação.",
+    reference: "Salmos 63:3",
+    text: "Porque tua leal bondade é melhor que a vida, meus lábios te louvarão.",
   },
   {
-    reference: "Salmos 136:13",
-    text: "Ao que dividiu o mar Vermelho em duas partes, porque seu leal amor é para sempre.",
+    reference: "Provérbios 17:17",
+    text: "O amigo ama em todo tempo, e o irmão nasce para a adversidade.",
+  },
+  {
+    reference: "João 14:1",
+    text: "“Não se perturbe o vosso coração; crede em Deus, crede também em mim.",
+  },
+  {
+    reference: "Mateus 11:29",
+    text: "Tomai sobre vós meu jugo e aprendei de mim, que sou manso e humilde de coração; e achareis descanso para vossas almas.",
+  },
+  {
+    reference: "Isaías 49:15",
+    text: "Pode, por acaso, uma mulher se esquecer do filho que ainda amamenta, de modo que não se compadeça do filho de seu próprio ventre? Ainda que elas se esquecessem, contudo, eu não me esquecerei de ti.",
+  },
+  {
+    reference: "Romanos 10:9",
+    text: "Pois, se com a tua boca declarares que Jesus é Senhor, e em teu coração creres que Deus o ressuscitou dos mortos, serás salvo.",
+  },
+  {
+    reference: "Lucas 12:6",
+    text: "Não se vendem cinco passarinhos por duas pequenas moedas? E nenhum deles está esquecido diante de Deus.",
+  },
+  {
+    reference: "Jeremias 32:17",
+    text: "Ah Senhor DEUS! Eis que tu fizeste os céus e a terra com teu grande poder, e com teu braço estendido; não há coisa alguma que seja difícil para ti;",
+  },
+  {
+    reference: "Eclesiastes 7:9",
+    text: "Não te apresses em teu espírito para te irares, porque a ira repousa no colo dos tolos.",
+  },
+  {
+    reference: "1 Coríntios 13:6",
+    text: "Não se alegra com a injustiça, mas se alegra com a verdade.",
+  },
+  {
+    reference: "Tiago 4:10",
+    text: "Humilhai-vos diante do Senhor, e ele vos exaltará.",
+  },
+  {
+    reference: "Salmos 84:11",
+    text: "Porque o SENHOR Deus é sol e escudo; o SENHOR dará graça e honra; ele não recusará o bem aos que andam em integridade.",
+  },
+  {
+    reference: "Provérbios 18:10",
+    text: "O nome do SENHOR é uma torre forte; o justo correrá até ele, e ficará seguro.",
+  },
+  {
+    reference: "João 14:6",
+    text: "Jesus lhe disse: “Eu sou o caminho, a verdade, e a vida. Ninguém vem ao Pai, senão por mim.",
+  },
+  {
+    reference: "Apocalipse 22:5",
+    text: "E ali não haverá mais noite, e não terão necessidade de lâmpada, nem de luz do sol; porque o Senhor Deus os ilumina; e reinarão para todo o sempre.",
+  },
+  {
+    reference: "Mateus 11:30",
+    text: "Porque meu jugo é suave e minha carga é leve”.",
+  },
+  {
+    reference: "Isaías 54:10",
+    text: "Porque montes se removerão e morros se retirarão, porém minha bondade não se removerá de ti, nem o pacto de minha paz se retirará, diz o SENHOR, que tem compaixão de ti.",
+  },
+  {
+    reference: "Romanos 10:13",
+    text: "Pois: “Todo aquele que invocar o nome do Senhor será salvo.”",
+  },
+  {
+    reference: "Deuteronômio 30:20",
+    text: "Que ames ao SENHOR teu Deus, que ouças sua voz, e te achegues a ele; porque ele é tua vida, e o comprimento de teus dias; a fim de que habites sobre a terra que jurou o SENHOR a teus pais Abraão, Isaque, e Jacó, que lhes havia de dar.",
+  },
+  {
+    reference: "2 Coríntios 5:21",
+    text: "Pois ele fez com que aquele que não conheceu pecado se tornasse pecado por nós; para que nós nele fôssemos feitos justiça de Deus.",
+  },
+  {
+    reference: "Filipenses 4:7",
+    text: "e a paz de Deus, que excede todo entendimento, guardará os vossos corações e as vossas mentes em Cristo Jesus.",
+  },
+  {
+    reference: "Efésios 5:1",
+    text: "Portanto, sede imitadores de Deus, como filhos amados;",
+  },
+  {
+    reference: "Hebreus 13:5",
+    text: "A vossa conduta seja sem ganância, contentando-vos com as coisas que tendes, porque ele disse: “Não te deixarei, nem te desampararei.”",
+  },
+  {
+    reference: "Lucas 12:31",
+    text: "Antes, buscai o Reino de Deus, e todas essas coisas vos serão acrescentadas.",
+  },
+  {
+    reference: "Josué 23:14",
+    text: "E eis que eu estou para entrar hoje pelo caminho de toda a terra: reconhecei, pois, com todo o vosso coração e com toda vossa alma, que não se perdeu uma palavra de todas a boas palavras que o SENHOR vosso Deus disse de vós; todas vieram até vós, nenhuma delas se perdeu.",
+  },
+  {
+    reference: "Salmos 91:1",
+    text: "Aquele que habita no esconderijo do Altíssimo descansa à sombra do Todo-Poderoso.",
+  },
+  {
+    reference: "Provérbios 19:21",
+    text: "Há muitos pensamentos no coração do homem; porém o conselho do SENHOR prevalecerá.",
+  },
+  {
+    reference: "João 14:27",
+    text: "A paz eu vos deixo, minha paz eu vos dou; não dou como o mundo dá. Não se perturbe o vosso coração, nem tenha medo.",
+  },
+  {
+    reference: "1 Coríntios 13:7",
+    text: "Tudo aguenta, tudo crê, tudo espera, tudo suporta.",
+  },
+  {
+    reference: "Mateus 18:20",
+    text: "Pois onde dois ou três estiverem reunidos em meu nome, ali eu estou no meio deles”.",
+  },
+  {
+    reference: "Isaías 55:6",
+    text: "Buscai ao SENHOR enquanto se pode achar; invocai-o enquanto ele está perto.",
+  },
+  {
+    reference: "Romanos 12:2",
+    text: "E não vos conformeis com a presente era; mas transformai-vos pela renovação da vossa mentalidade, para que experimenteis qual seja a boa, agradável, e perfeita vontade de Deus.",
+  },
+  {
+    reference: "Jeremias 32:27",
+    text: "Eis que eu sou o SENHOR, Deus de toda carne: Existe, por acaso, algo difícil demais para mim?",
+  },
+  {
+    reference: "Eclesiastes 11:1",
+    text: "Lança teu pão sobre as águas, porque depois de muitos dias tu o encontrarás.",
+  },
+  {
+    reference: "Tiago 5:8",
+    text: "Sede vós também pacientes. Fortalecei os vossos corações, porque a vinda do Senhor está próxima.",
+  },
+  {
+    reference: "Salmos 100:4",
+    text: "Entrai por suas portas com ações de graças, por seus pátios com cântico de louvor; dai graças a ele, e bendizei o seu nome.",
+  },
+  {
+    reference: "Provérbios 20:22",
+    text: "Não digas: Devolverei o mal; Espera pelo SENHOR, e ele te livrará.",
+  },
+  {
+    reference: "João 15:5",
+    text: "Eu sou a videira, vós os ramos; quem está em mim, e eu nele, esse dá muito fruto; porque sem mim nada podeis fazer.",
+  },
+  {
+    reference: "Deuteronômio 31:6",
+    text: "Esforçai-vos e tende ânimo; não temais, nem tenhais medo deles; porque o SENHOR, teu Deus, é o que vai contigo; ele não te deixará nem te desamparará.",
+  },
+  {
+    reference: "2 Coríntios 9:7",
+    text: "Cada um contribua como propôs em seu coração, não com tristeza, ou por obrigação; porque Deus ama ao que dá com alegria.",
+  },
+  {
+    reference: "Filipenses 4:8",
+    text: "No restante, irmãos, tudo o que é verdadeiro, tudo o que é respeitável, tudo o que é justo, tudo o que é puro, tudo o que é amável, tudo o que é de boa fama, se há alguma virtude, e se há algo digno de elogio, nisso pensai.",
+  },
+  {
+    reference: "Efésios 5:8",
+    text: "Pois antes vós éreis trevas, mas agora sois luz no Senhor; andai como filhos da luz",
+  },
+  {
+    reference: "Hebreus 13:6",
+    text: "De maneira que tenhamos a confiança de dizer: “O Senhor é meu ajudador; não temerei o que o ser humano poderá fazer a mim.”",
+  },
+  {
+    reference: "Lucas 12:32",
+    text: "Não tenhas medo, ó pequeno rebanho; pois vosso Pai se agradou de vos dar o reino.",
+  },
+  {
+    reference: "1 Coríntios 13:13",
+    text: "E agora continuam a fé, a esperança, e o amor, estes três; porém o maior destes é o amor.",
+  },
+  {
+    reference: "Mateus 22:39",
+    text: "E o segundo, semelhante a este, é: ‘Amarás teu próximo como a ti mesmo’.",
+  },
+  {
+    reference: "Isaías 55:8",
+    text: "Pois os meus pensamentos não são os vossos pensamentos, nem os vossos caminhos os meus caminhos, diz o SENHOR.",
+  },
+  {
+    reference: "Romanos 12:12",
+    text: "Alegrai-vos na esperança. Sede pacientes na aflição. Perseverai na oração.",
+  },
+  {
+    reference: "Salmos 121:2",
+    text: "Meu socorro vem do SENHOR, que fez o céu e a terra.",
+  },
+  {
+    reference: "Provérbios 22:1",
+    text: "É preferível ter um bom nome do que muitas riquezas; e ser favorecido é melhor que a prata e o o ouro.",
+  },
+  {
+    reference: "João 15:9",
+    text: "Como o Pai me amou, também eu vos amei; permanecei no meu amor.",
+  },
+  {
+    reference: "Apocalipse 22:17",
+    text: "E o Espírito e a noiva dizem: “Vem!” E quem o ouve, diga: “Vem!” E quem tem sede, venha; e quem quiser, tome de graça da água da vida.",
+  },
+  {
+    reference: "Josué 24:15",
+    text: "E se mal vos parece servir ao SENHOR, escolhei hoje a quem sirvais; se aos deuses a os quais serviram vossos pais, quando estiveram da outra parte do rio, ou aos deuses dos amorreus em cuja terra habitais: que eu e minha casa serviremos ao SENHOR.",
+  },
+  {
+    reference: "Jeremias 33:3",
+    text: "Clama a mim, e eu te responderei; e te direi coisas grandes e difíceis que tu não conheces.",
+  },
+  {
+    reference: "Eclesiastes 12:13",
+    text: "De tudo o que foi ouvido, a conclusão é: teme a Deus, e guarda os mandamentos dele; porque isto é o dever de todo homem.",
+  },
+  {
+    reference: "Tiago 5:16",
+    text: "Confessai as vossas culpas uns aos outros, e orai uns pelos outros, para que sejais curados. A oração de um justo muito pode efetuar.",
+  },
+  {
+    reference: "Deuteronômio 31:8",
+    text: "E o SENHOR é o que vai diante de ti; ele será contigo, não te deixará, nem te desamparará; não temas, nem te intimides.",
+  },
+  {
+    reference: "2 Coríntios 12:9",
+    text: "Mas ele me disse: “Minha graça te basta, porque meu poder se aperfeiçoa na fraqueza”. Por isso, com muito prazer, eu me orgulharei nas minhas fraquezas, para que o poder de Cristo habite em mim.",
+  },
+  {
+    reference: "Filipenses 4:19",
+    text: "E meu Deus suprirá todas a vossas necessidades segundo as suas riquezas em glória em Cristo Jesus.",
+  },
+  {
+    reference: "Efésios 6:18",
+    text: "orando em todo tempo com toda oração e súplica no Espírito, e vigiando nisso com toda perseverança e súplica por todos os santos,",
+  },
+  {
+    reference: "Hebreus 13:8",
+    text: "Jesus Cristo é o mesmo ontem, hoje, e eternamente.",
+  },
+  {
+    reference: "Lucas 18:27",
+    text: "Mas Jesus disse: “As coisas impossíveis para os seres humanos são possíveis para Deus”.",
+  },
+  {
+    reference: "1 Coríntios 16:14",
+    text: "Todas as vossas coisas sejam feitas em amor.",
+  },
+  {
+    reference: "Mateus 19:26",
+    text: "E Jesus, olhando para eles, disse-lhes: “Para os seres humanos, isso é impossível; mas para Deus tudo é possível”.",
+  },
+  {
+    reference: "Isaías 58:11",
+    text: "E o SENHOR te guiará continuamente, fartará a tua alma mesmo em grandes secas, e fortalecerá teus ossos; e tu serás como um jardim regado, como um manancial de águas, cujas águas nunca faltam.",
+  },
+  {
+    reference: "Romanos 15:13",
+    text: "O Deus da esperança vos encha de toda alegria e paz na fé, para que abundeis em esperança no poder do Espírito Santo.",
   },
   {
     reference: "Salmos 139:16",
     text: "Teus olhos viram meu corpo ainda sem forma; e todos os dias que me foram determinados estavam escritos no teu livro, quando nenhum deles ainda existia.",
   },
   {
-    reference: "Salmos 145:15",
-    text: "Os olhos de todos esperam por ti, e tu lhes dás seu alimento ao seu tempo.",
+    reference: "Provérbios 27:17",
+    text: "O ferro é afiado com ferro; assim também o homem afia o rosto de seu amigo.",
   },
   {
-    reference: "Salmos 147:14",
-    text: "Ele é o que põe em paz tuas fronteiras, e te sacia do melhor trigo.",
-  },
-  {
-    reference: "Salmos 148:13",
-    text: "louvai o nome do SENHOR, pois só o nome dele é exaltado; sua majestade está sobre a terra e o céu.",
-  },
-  {
-    reference: "Salmos 34:15",
-    text: "Os olhos do SENHOR estão sobre os justos, e seus ouvidos, ao clamor deles.",
-  },
-  {
-    reference: "Salmos 37:14",
-    text: "Os perversos puxam da espada e preparam seu arco para derrubarem o pobre e necessitado, para matarem os de caminho correto.",
-  },
-  {
-    reference: "Salmos 103:17",
-    text: "Mas a leal bondade do SENHOR é de eternidade à eternidade sobre aqueles que o temem; e a justiça dele é sobre os filhos dos filhos;",
-  },
-  {
-    reference: "Salmos 104:15",
-    text: "e o vinho, que alegra o coração do homem, e o azeite, que faz o rosto brilhar, e o pão, que fortalece o coração do homem.",
-  },
-  {
-    reference: "Salmos 116:14",
-    text: "Cumprirei meus votos ao SENHOR, na presença de todo o seu povo.",
-  },
-  {
-    reference: "Salmos 118:22",
-    text: "A pedra que os construtores rejeitaram se tornou a principal de esquina.",
-  },
-  {
-    reference: "Salmos 136:14",
-    text: "E fez Israel passar por meio dele, porque seu leal amor é para sempre.",
-  },
-  {
-    reference: "Salmos 139:17",
-    text: "Como são preciosos para mim os teus pensamentos, ó Deus! Como é grande o número deles!",
-  },
-  {
-    reference: "Salmos 145:16",
-    text: "Abres tua mão, e sacias o desejo de todo ser vivente.",
-  },
-  {
-    reference: "Salmos 147:15",
-    text: "Ele envia sua ordem à terra; sua palavra corre velozmente.",
-  },
-  {
-    reference: "Salmos 148:14",
-    text: "E ele exalta o poder de seu povo, o louvor de todos os seus santos, os filhos de Israel, o povo que é próximo dele. Aleluia!",
-  },
-  {
-    reference: "Salmos 34:16",
-    text: "A face do SENHOR está contra os que praticam o mal, para eliminar da terra a memória deles.",
-  },
-  {
-    reference: "Salmos 37:15",
-    text: "Mas a espada deles entrará no seu próprio coração, e seus arcos se quebrarão.",
-  },
-  {
-    reference: "Salmos 103:18",
-    text: "sobre os que guardam o pacto dele, e sobre os que se lembram de cumprir seus mandamentos.",
-  },
-  {
-    reference: "Salmos 104:16",
-    text: "As árvores do SENHOR são satisfeitas, os cedros do Líbano, que ele plantou.",
-  },
-  {
-    reference: "Salmos 116:15",
-    text: "Preciosa é aos olhos do SENHOR a morte de seus santos.",
-  },
-  {
-    reference: "Salmos 118:23",
-    text: "Pelo SENHOR isto foi feito, e é maravilhoso aos nossos olhos.",
-  },
-  {
-    reference: "Salmos 136:15",
-    text: "Mas derrubou Faraó com seu exército no mar Vermelho, porque seu leal amor é para sempre.",
-  },
-  {
-    reference: "Salmos 139:19",
-    text: "Ó, Deus, que mates o perverso! E, portanto, afastem-se de mim, homens sanguinários.",
-  },
-  {
-    reference: "Salmos 145:17",
-    text: "O SENHOR é justo em todos os seus caminhos, e bondoso em todas as suas obras.",
-  },
-  {
-    reference: "Salmos 147:16",
-    text: "Ele dá a neve como lã; espalha a geada como cinza.",
-  },
-  {
-    reference: "Salmos 34:18",
-    text: "O SENHOR está perto dos quebrantados de coração, e salva os contritos de espírito.",
-  },
-  {
-    reference: "Salmos 37:16",
-    text: "O pouco que o justo tem é melhor do que a riqueza de muitos perversos.",
-  },
-  {
-    reference: "Salmos 103:19",
-    text: "O SENHOR estabeleceu seu trono nos céus, e seu reino domina sobre tudo.",
-  },
-  {
-    reference: "Salmos 104:17",
-    text: "Ali as aves fazem ninhos; quanto à cegonha, sua casa é nos ciprestes.",
-  },
-  {
-    reference: "Salmos 116:16",
-    text: "Ó SENHOR, verdadeiramente eu sou teu servo; sou teu servo, filho de tua serva; soltaste-me das minhas correntes.",
-  },
-  {
-    reference: "Salmos 118:24",
-    text: "Este é o dia que o SENHOR fez; jubilemos e nos alegremos nele.",
-  },
-  {
-    reference: "Salmos 136:16",
-    text: "Ao que guiou o seu povo pelo deserto, porque seu leal amor é para sempre.",
-  },
-  {
-    reference: "Salmos 139:20",
-    text: "Pois falam com maldade contra ti; teus inimigos se levantam para mentir.",
-  },
-  {
-    reference: "Salmos 145:18",
-    text: "O SENHOR está perto de todos os que o invocam, de todos os que o invocam com sinceridade.",
-  },
-  {
-    reference: "Salmos 147:17",
-    text: "Ele lança seu gelo como em pedaços; quem pode resistir ao seu frio?",
-  },
-  {
-    reference: "Salmos 34:19",
-    text: "Muitas são as aflições do justo, mas o SENHOR o livra de todas.",
+    reference: "João 16:33",
+    text: "Eu vos tenho dito essas coisas para que tenhais paz em mim; no mundo vós tereis aflição; mas tende bom ânimo; eu venci o mundo”.",
   },
 ] as const;
