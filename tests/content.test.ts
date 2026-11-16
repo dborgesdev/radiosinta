@@ -140,7 +140,7 @@ test("365 local real references are unique, stable on reload, rotate at São Pau
   assert.equal(new Set(dailyVerses.map((v) => v.reference)).size, 365);
   assert.ok(
     dailyVerses.every(
-      (v) => v.text.length >= 25 && /^Salmos \d+:\d+$/.test(v.reference) && !v.text.includes("\\"),
+      (v) => v.text.length >= 25 && / \d+:\d+$/.test(v.reference) && !v.text.includes("\\"),
     ),
   );
   assert.equal(

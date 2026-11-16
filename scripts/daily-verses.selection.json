@@ -1,0 +1,149 @@
+{
+  "commit": "a315a15e9f4d01883b62206fe441d57762f126b3",
+  "books": [
+    {
+      "name": "Salmos",
+      "file": "sal",
+      "abbreviation": "Sl",
+      "testament": "AT",
+      "references": "1:1 4:8 5:3 9:1 16:8 18:2 19:1 23:1 23:3 23:4 27:1 27:14 28:7 30:5 32:8 34:4 34:8 37:4 37:5 40:1 42:11 46:1 55:22 62:1 63:3 84:11 91:1 100:4 121:2 139:16",
+      "sha256": "a2a0ffe3bb7e80d1b8dc1a3bf790a0ff789490db0298a1cdf35835c593302e2b"
+    },
+    {
+      "name": "Mateus",
+      "file": "mat",
+      "abbreviation": "Mt",
+      "testament": "NT",
+      "references": "5:3 5:4 5:5 5:6 5:7 5:8 5:9 5:14 5:16 5:45 6:8 6:14 6:20 6:26 6:32 6:34 7:7 7:8 7:12 11:28 11:29 11:30 18:20 22:39 19:26",
+      "sha256": "100ef04c19683f330f73e183cc9a2ad36d49367e1611f7233ac703431d16af77"
+    },
+    {
+      "name": "Provérbios",
+      "file": "prov",
+      "abbreviation": "Prv",
+      "testament": "AT",
+      "references": "1:7 2:6 3:3 3:5 3:6 3:7 3:9 3:24 4:7 4:18 4:23 8:17 9:10 10:12 11:25 12:25 13:20 14:26 15:1 15:13 15:22 16:3 16:9 16:24 17:17 18:10 19:21 20:22 22:1 27:17",
+      "sha256": "0aed9d29906e0dfdb92ef5b7692bf1aa32ec1df8ac66f709a57810bdfaac9d5c"
+    },
+    {
+      "name": "João",
+      "file": "joao",
+      "abbreviation": "Joao",
+      "testament": "NT",
+      "references": "1:4 1:5 1:12 1:14 3:16 3:17 4:14 4:24 6:35 6:37 6:40 7:38 8:12 8:31 8:32 10:10 10:11 10:27 10:28 11:25 11:26 12:46 13:34 13:35 14:1 14:6 14:27 15:5 15:9 16:33",
+      "sha256": "df76aa569a96b7e4c802647e0898ca58c281051fe91171b268cb5a372c27f340"
+    },
+    {
+      "name": "Isaías",
+      "file": "isa",
+      "abbreviation": "Is",
+      "testament": "AT",
+      "references": "12:2 12:3 25:1 26:3 26:4 30:15 30:18 30:21 32:17 33:2 35:4 40:8 40:29 40:31 41:10 41:13 43:1 43:2 43:19 46:4 49:15 54:10 55:6 55:8 58:11",
+      "sha256": "80d66887ae2bef1423ad6a6614e6c53ecb8457dc1ac191ee96c109bc5b9bf863"
+    },
+    {
+      "name": "Romanos",
+      "file": "rom",
+      "abbreviation": "Rm",
+      "testament": "NT",
+      "references": "12:9 5:11 5:2 5:3 5:4 5:5 5:8 6:23 8:24 8:6 8:14 8:15 8:18 8:25 8:28 8:31 8:32 8:37 14:17 8:39 10:9 10:13 12:2 12:12 15:13",
+      "sha256": "da2fd35c3e559ddf2ac6899fcc51cc7c1e32417b4fcb4c16c52340710bb78594"
+    },
+    {
+      "name": "Jeremias",
+      "file": "jer",
+      "abbreviation": "Jr",
+      "testament": "AT",
+      "references": "1:8 9:24 15:16 17:7 17:8 17:10 17:14 29:11 29:12 29:13 31:3 31:25 32:17 32:27 33:3",
+      "sha256": "5f1c831f678754c107ddc63e4248e19e598de2c0be7ab77113e64878c23753e3"
+    },
+    {
+      "name": "Lucas",
+      "file": "luc",
+      "abbreviation": "Lc",
+      "testament": "NT",
+      "references": "1:37 1:45 2:10 2:11 6:27 6:31 6:35 6:28 6:37 6:38 8:15 10:20 10:27 11:9 11:10 11:13 12:6 12:31 12:32 18:27",
+      "sha256": "c055e735586b14c9874ea97ac9390986a456eb0500986182c098bc42735222c7"
+    },
+    {
+      "name": "Josué",
+      "file": "jos",
+      "abbreviation": "Js",
+      "testament": "AT",
+      "references": "1:5 1:6 1:7 1:8 1:9 3:5 4:24 21:45 22:5 23:10 23:14 24:15",
+      "sha256": "b1cc62cea9b24679463a5c484f028b0ec0d4ba6b4682b1d9db0c80754919da82"
+    },
+    {
+      "name": "1 Coríntios",
+      "file": "1cor",
+      "abbreviation": "1Co",
+      "testament": "NT",
+      "references": "1:9 1:18 1:25 2:5 2:10 3:16 6:19 15:58 10:13 10:24 10:31 12:7 12:26 13:1 13:2 13:3 13:4 13:5 13:6 13:7 13:13 16:14",
+      "sha256": "8c2c1582871897037bcc000a6bcdc752aeec4d8f48630909b6d50ee083a3642c"
+    },
+    {
+      "name": "Deuteronômio",
+      "file": "deut",
+      "abbreviation": "Dt",
+      "testament": "AT",
+      "references": "4:7 4:29 4:31 6:5 6:6 6:7 7:9 8:10 10:12 10:20 11:18 13:4 20:4 30:6 30:19 30:20 31:6 31:8",
+      "sha256": "defc62451debb91b41b80b201b3147ef92ca1809c187e0f318d749617c7d2f64"
+    },
+    {
+      "name": "2 Coríntios",
+      "file": "2cor",
+      "abbreviation": "2Co",
+      "testament": "NT",
+      "references": "1:3 1:4 1:5 1:20 3:5 3:17 9:8 4:7 4:8 4:9 4:16 4:17 4:18 5:7 5:17 5:21 9:7 12:9",
+      "sha256": "6a3869738f6aa111a7d33c9a7657996c65247bc288e0bf4ed293945db7391a7c"
+    },
+    {
+      "name": "Eclesiastes",
+      "file": "ecl",
+      "abbreviation": "Ec",
+      "testament": "AT",
+      "references": "3:1 3:11 3:12 3:13 3:14 4:6 4:9 4:10 4:12 5:2 5:19 7:8 7:9 11:1 12:13",
+      "sha256": "1f525c259a8d72de556c9e18f5ba251602d21c92625d1c2b2ca9cf28304d6818"
+    },
+    {
+      "name": "Filipenses",
+      "file": "fil",
+      "abbreviation": "Fp",
+      "testament": "NT",
+      "references": "1:3 1:9 1:10 1:21 4:9 2:4 2:5 2:13 2:14 2:15 3:8 3:14 3:20 4:4 4:6 4:7 4:8 4:19",
+      "sha256": "3c166339d5a4bcd58853149f7ba91fe27a479b049f96dc90016d5e2aa3cb6ce1"
+    },
+    {
+      "name": "Efésios",
+      "file": "efes",
+      "abbreviation": "Ef",
+      "testament": "NT",
+      "references": "1:3 1:7 1:17 2:4 2:8 2:10 2:14 2:19 3:12 3:16 3:17 3:20 4:2 4:3 4:32 5:1 5:8 6:18",
+      "sha256": "23a5020b84c0c76ad30362748c8548622446ddfb6baeafeb7767cee01cc0554f"
+    },
+    {
+      "name": "Hebreus",
+      "file": "heb",
+      "abbreviation": "Hb",
+      "testament": "NT",
+      "references": "4:12 4:14 4:15 4:16 6:11 6:19 10:23 10:24 10:25 10:35 10:36 11:1 11:6 12:1 12:2 13:5 13:6 13:8",
+      "sha256": "bd7d7430b2d08684095ffc86894fa83a7d22c50d4858649f8ac49ae75f3899be"
+    },
+    {
+      "name": "Tiago",
+      "file": "tiag",
+      "abbreviation": "Tg",
+      "testament": "NT",
+      "references": "1:2 1:3 1:4 1:5 5:13 1:17 1:21 1:22 2:17 3:17 3:18 4:7 4:8 4:10 5:8 5:16",
+      "sha256": "93b595cbab66bbb0fa532e1ac61481a648064463b8476092322d0603b2fd30d4"
+    },
+    {
+      "name": "Apocalipse",
+      "file": "apo",
+      "abbreviation": "Ap",
+      "testament": "NT",
+      "references": "1:3 3:20 7:17 14:13 19:9 21:3 21:4 21:5 22:5 22:17",
+      "sha256": "63795c01288db3dd3ac1690cf36e61735ffe3f99553e7a670d9401ed8f5d894d"
+    }
+  ]
+}
